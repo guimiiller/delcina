@@ -1,0 +1,144 @@
+.imovel_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FAF9F6;
+}
+
+.imovel_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.imovel_img{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.slider{
+    width: 100%;
+}
+
+.imovel_img .photo_main{
+    border-radius: 8px;
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.imovel_img h1{
+    margin: 25px 0 10px 0;
+}
+
+.imovel_contact{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imovel_contact_content{
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 20px #b1b1b1;
+    padding: 30px 40px;
+    border-radius: 8px;
+}
+
+.imovel_price{
+    border-radius: 7px;
+    padding: 25px 30px 20px 30px;
+}
+
+.imovel_price h1{
+    font-size: 25px;
+}
+
+.imovel_price h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.imovel_price h4{
+    font-size: 17px;
+}
+
+.imovel_price img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.imovel_contact div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imovel_contact h2{
+    font-size: 27px;
+    margin: 30px 0; 
+}
+
+.means_contact img{
+    width: 25px;
+    height: 25px;
+}
+
+.means_contact p{
+    margin-right: 10px;
+}
+
+
+.imovel_contact button{
+    padding: 15px 55px;
+    border: none;
+    background: transparent;
+    box-shadow: 0px 5px 20px #cccccc;
+    border-radius: 7px;
+    width: 100%;
+    margin: 10px 0;
+    transition: .4s;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imovel_contact button:hover{
+    background-color: #e7e7e7;
+}
+
+.imovel_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imovel_icons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imovel_icons img{
+    width: 25px;
+    height: 25px;
+    margin: 7px;
+}
