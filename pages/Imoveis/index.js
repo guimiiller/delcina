@@ -4,30 +4,52 @@ import Image from 'next/image';
 import IconBed from '../../public/assets/icon_bed.png'
 import IconShower from '../../public/assets/icon_shower.png'
 import IconYardstick from '../../public/assets/icon_yardstick.png'
+import IconBack from '../../public/assets/icon_arrow.png'
 import { useState } from "react";
 import Head from "next/head";
 
 const Imoveis = ({imoveis}) =>{
-    const [inputValue, setInputValue] = useState('')
+    const [bairroValue, setBairroValue] = useState('')
+    const [cidadeValue, setCidadeValue] = useState('');
 
-    const lowerBusca = inputValue.toLowerCase()
-    const getFiltered = imoveis.filter(item => item.district.toLowerCase().includes(lowerBusca))
+    const cidades = [...new Set(imoveis.map(imovel => imovel.city))]
+
+    const filteredByBairro = bairroValue ? imoveis.filter(item => item.district.toLowerCase().includes(bairroValue.toLowerCase())) : imoveis;
+    const filteredByCidade = cidadeValue ? filteredByBairro.filter(item => item.city.toLowerCase().includes(cidadeValue.toLowerCase())) : filteredByBairro;
 
     return(
         <div className={styles.container}>
             <Head>
                 <title>DA - Mais Imóveis</title>
             </Head>
-            <div className={styles.searchcontainer}>
-                <input 
-                    type='search' 
-                    placeholder='Digite o Bairro'
-                    value={inputValue}
-                    onChange={(e) => setInputValue(e.target.value)} 
-                />
+            <div className={styles.input_container}>
+                <div className={styles.link_back}>
+                    <Link href={'/'}><Image src={IconBack} alt="" /></Link>
+                </div>
+                <div className={styles.searchcontainer}>
+                    <div className={styles.input_search}>
+                        <input 
+                            type='search' 
+                            placeholder='Digite o Bairro'
+                            value={bairroValue}
+                            onChange={(e) => setBairroValue(e.target.value)} 
+                        />
+                    </div>
+                    <div className={styles.input_search}>
+                        <select 
+                            value={cidadeValue}
+                            onChange={(e) => setCidadeValue(e.target.value)}
+                        >
+                            <option value="">Selecione a Cidade</option>
+                            {cidades.map((cidade, index) => (
+                                <option key={index} value={cidade}>{cidade}</option>
+                            ))}
+                        </select>
+                    </div>
+                </div>
             </div>
            <div className={styles.more_grid}>
-                {getFiltered.map((imovel) =>(
+                {filteredByCidade.map((imovel) =>(
                     <div key={imovel.id}>
                         <Link href={`/Imoveis/${imovel.id}`}><Image src={imovel.photo}/></Link>
                         <h3>{imovel.price}</h3>

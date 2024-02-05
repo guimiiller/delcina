@@ -1,11 +1,10 @@
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-import House1 from '../../public/assets/houses/house1.jpeg'
-import House2 from '../../public/assets/houses/house2.jpeg'
 import styles from '../../styles/ImovelItem.module.css'
 import IconBed from  '../../public/assets/icon_bed.png'
 import IconShower from '../../public/assets/icon_shower.png'
 import IconYardstick from '../../public/assets/icon_yardstick.png'
+import IconPool from '../../public/assets/icon_pool.png'
 import IconWhats from '../../public/assets/icon_what.png'
 import IconInstagram from '../../public/assets/icon_insta.png'
 import IconCheck from '../../public/assets/icon_check.png'
@@ -17,15 +16,41 @@ import 'swiper/css/pagination';
 
 // Dados dos imóveis (ou você pode buscar esses dados de uma API como fizemos anteriormente)
 const imoveisData = [
-  {id: 1, photo: {House1, House2}, city: 'Santa Barbara d Oeste', district: 'Planalto do SoL', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
-  {id: 2, photo: {House1, House2}, city: 'Americana',district: 'Jardim Esmeralda', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 3, photo: {House1, House2}, city: 'Nova Odessa',district: 'Jardim da Paz', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
-  {id: 4, photo: {House1, House2}, city: 'Americana',district: 'Cidade Nova', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 5, photo: {House1, House2}, city: 'Americana',district: 'San Marino', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
-  {id: 6, photo: {House1, House2}, city: 'Americana',district: 'Jardim Esmeralda', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 7, photo: {House1, House2}, city: 'Nova Odessa',district: 'Jardim da Paz', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 8, photo: {House1, House2}, city: 'Santa Barbara d Oeste',district: 'Cidade Nova', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
-  {id: 9, photo: {House1, House2}, city: 'Santa Barbara d Oeste',district: 'San Marino', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false}
+  {
+    id: 1, 
+    photos: ['/assets/houses/house1/img1_1.jpeg', '/assets/houses/house1/img1_2.jpeg', '/assets/houses/house1/img1_3.jpeg'], 
+    city: 'Americana', 
+    district: 'Americana', 
+    price: 'R$ 1.550.000,00', 
+    category: 'casa', 
+    rooms: 3, 
+    bathrooms: 1, 
+    pool: true, 
+    meters: '324 m²', 
+    exchange: true, 
+    financing: true, 
+  },
+  {
+    id: 2, 
+    photos: ['/assets/houses/house2/img2_1.jpeg', '/assets/houses/house2/img2_2.jpeg', '/assets/houses/house2/img2_3.jpeg', '/assets/houses/house2/img2_4.jpeg'], 
+    city: 'Americana', 
+    district: 'PQ Universitário', 
+    price: 'R$ 980.000,00', 
+    category: 'casa', 
+    rooms: 3, 
+    bathrooms: 2, 
+    pool: false, 
+    meters: '186,60 m²', 
+    exchange: true, 
+    financing: true
+  },
+  {id: 3, photos: ['/assets/houses/house3/img3_1.jpeg', '/assets/houses/house3/img3_2.jpeg', '/assets/houses/house3/img3_3.jpeg', '/assets/houses/house3/img3_4.jpeg'], city: 'Americana', district: 'JD Terramérica', price: 'R$ 520.000,00', category: 'casa', rooms: 2, bathrooms: 1, pool: false, meters: '156,25 m²', exchange: true, financing: true},
+  {id: 4, photos: {}, city: 'Americana',district: 'Cidade Nova', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
+  {id: 5, photos: {}, city: 'Americana',district: 'San Marino', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
+  {id: 6, photos: {}, city: 'Americana',district: 'Jardim Esmeralda', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
+  {id: 7, photos: {}, city: 'Nova Odessa',district: 'Jardim da Paz', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
+  {id: 8, photos: {}, city: 'Santa Barbara d Oeste',district: 'Cidade Nova', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
+  {id: 9, photos: {}, city: 'Santa Barbara d Oeste',district: 'San Marino', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false}
 ];
 
 export async function getStaticPaths() {
@@ -73,21 +98,26 @@ export default function Imovel({ imovelData }) {
             onSlideChange={() => console.log('slide change')}
             className={styles.slider}
           >
-            <SwiperSlide><Image src={imovelData.photo.House1} alt='' className={styles.photo_main}/></SwiperSlide>
-            <SwiperSlide><Image src={imovelData.photo.House2} alt='' className={styles.photo_main}/></SwiperSlide>
+            {imovelData.photos.map((photo, index) =>(
+              <SwiperSlide><img key={index} src={photo} alt='' className={styles.photo_main}></img></SwiperSlide>
+            ))}
+            
           </Swiper>
           <div className={styles.imovel_icons}>
             <div><Image src={IconBed} alt=''/><p>{imovelData.rooms}</p></div>
             <div><Image src={IconShower} alt=''/><p>{imovelData.bathrooms}</p></div>
             <div><Image src={IconYardstick} alt=''/><p>{imovelData.meters}</p></div>
+            <div>{imovelData.pool && <div><Image src={IconPool} alt='' /> <p>Piscina</p></div>}</div>
           </div>
         </div>
         <div className={styles.imovel_contact}>
          <div className={styles.imovel_contact_content}>
           <div className={styles.imovel_price}>
+              <h5>{imovelData.city}</h5>
               <h1>{imovelData.district}</h1>
               <h3>{imovelData.price}</h3>
-              {imovelData.permuta ? <h4>Aceita Permuta <Image src={IconCheck} alt=''/></h4> : <h4>Não aceita permuta</h4>}
+              {imovelData.exchange ? <h4>Aceita Permuta <Image src={IconCheck} alt=''/></h4> : <h4>Não aceita permuta</h4>}
+              {imovelData.financing ? <h4>Aceita financiamento <Image src={IconCheck} alt=''/></h4> : <h4>Não aceita financiamento</h4>}
             </div>
             <div className={styles.means_contact}>
               <h2>Entre em contato</h2>

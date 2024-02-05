@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     background-color: #FAF9F6;
 }
@@ -12,6 +13,7 @@
     justify-content: center;
     max-width: 1140px;
     width: 100%;
+    padding: 50px 0;
 }
 
 .imovel_img{
@@ -75,6 +77,12 @@
     font-size: 17px;
 }
 
+.imovel_price h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
 .imovel_price img{
     width: 30px;
     height: 30px;
@@ -129,16 +137,27 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .imovel_icons div{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 15px;
 }
 
 .imovel_icons img{
     width: 25px;
     height: 25px;
-    margin: 7px;
+    margin: 4px;
+}
+
+@media(max-width: 927px){
+    .slider{
+        height: 500px;
+    }
+    .imovel_content{
+        flex-direction: column;
+    }
 }
