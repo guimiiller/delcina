@@ -59,14 +59,14 @@ export const Slide = () =>{
                     
                     {getImoveis.map((item) =>(
                         <SwiperSlide className={styles.house_img} key={item.id}>
-                            <Image src={item.photo} alt=''/>
+                            <Image src={item.photo} alt='Photo'/>
                             <div>
                                 <h3>{item.price}</h3>
                                 <h2>{item.district}</h2>
                                 <div className={styles.slide_icons}>
-                                    <div><Image src={IconBed} alt=''/> <p>{item.rooms}</p></div>
-                                    <div><Image src={IconShower} alt=''/><p>{item.bathrooms}</p></div>
-                                    <div><Image src={IconYardstick} alt=''/><p>{item.meters}</p></div>
+                                    <div><Image src={IconBed} alt='Icon Bed'/> <p>{item.rooms}</p></div>
+                                    <div><Image src={IconShower} alt='Icon Shower'/><p>{item.bathrooms}</p></div>
+                                    <div><Image src={IconYardstick} alt='Icon Yardstick'/><p>{item.meters}</p></div>
                                 </div>
                             </div>
                             <Link href={`/Imoveis/${item.id}`}><button>Veja Mais</button></Link>

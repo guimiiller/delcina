@@ -59,7 +59,20 @@ export default function Home() {
       <div className={styles.container}>
         <Head>
           <title>D.A Imóveis</title>
-          <link rel="icon" href="./favicon.ico" />  
+          <meta name="title" content="D.A Imóveis" />
+          <meta name="description" content="Realize seu sonho do imóvel próprio." />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://delcinaimoveis.com/" />
+          <meta property="og:title" content="D.A Imóveis" />
+          <meta property="og:description" content="Realize seu sonho do imóvel próprio." />
+          <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://delcinaimoveis.com/" />
+          <meta property="twitter:title" content="D.A Imóveis" />
+          <meta property="twitter:description" content="Realize seu sonho do imóvel próprio." />
+          <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
         </Head>
         <Header />
         <div className={styles.banner_content}>
@@ -86,9 +99,9 @@ export default function Home() {
               disableOnInteraction: false
           }}
         >
-          <SwiperSlide><div className={styles.gallery_img1}><Image src={IconGallery1} alt=''/></div></SwiperSlide>
-          <SwiperSlide><div className={styles.gallery_img2}><Image src={IconGallery2} alt=''/></div></SwiperSlide>
-          <SwiperSlide><div className={styles.gallery_img3}><Image src={IconGallery3} alt=''/></div></SwiperSlide>
+          <SwiperSlide><div className={styles.gallery_img1}><Image src={IconGallery1} alt='Icon Gallery 1'/></div></SwiperSlide>
+          <SwiperSlide><div className={styles.gallery_img2}><Image src={IconGallery2} alt='Icon Gallery 2'/></div></SwiperSlide>
+          <SwiperSlide><div className={styles.gallery_img3}><Image src={IconGallery3} alt='Icon Gallery 3'/></div></SwiperSlide>
         </Swiper>
       </div>
 
@@ -137,12 +150,12 @@ export default function Home() {
             </div>
           
           <div className={styles.specialization_grid}>
-            <div><Image src={IconSpecial1} alt=''/><h3>Alto Padrão</h3></div>
-            <div><Image src={IconSpecial2} alt=''/><h3>Casas Confortáveis</h3></div>
-            <div><Image src={IconSpecial3} alt=''/><h3>Design Moderno</h3></div>
-            <div><Image src={IconSpecial4} alt=''/><h3>Localização Previlegiada</h3></div>
-            <div><Image src={IconSpecial5} alt=''/><h3>Vistas Incríveis</h3></div>
-            <div><Image src={IconSpecial6} alt=''/><h3>Ótimos Preços</h3></div>
+            <div><Image src={IconSpecial1} alt='Icon Special 1'/><h3>Alto Padrão</h3></div>
+            <div><Image src={IconSpecial2} alt='Icon Special 2'/><h3>Casas Confortáveis</h3></div>
+            <div><Image src={IconSpecial3} alt='Icon Special 3'/><h3>Design Moderno</h3></div>
+            <div><Image src={IconSpecial4} alt='Icon Special 4'/><h3>Localização Previlegiada</h3></div>
+            <div><Image src={IconSpecial5} alt='Icon Special 5'/><h3>Vistas Incríveis</h3></div>
+            <div><Image src={IconSpecial6} alt='Icon Special 6'/><h3>Ótimos Preços</h3></div>
           </div>
         </div>
       </div>

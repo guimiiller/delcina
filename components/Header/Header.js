@@ -14,25 +14,25 @@ export const Header = () =>{
                         <ul className={styles.nav_list}>
                             <li className={styles.nav_item}>
                                 <a href="/" className={styles.nav_link}>
-                                    <Image src={Icon1} alt="" width={24} height={24} className={styles.icon_nav}/>
+                                    <Image src={Icon1} alt="Icon 1" width={24} height={24} className={styles.icon_nav}/>
                                     <span className={styles.nav_name}>Home</span>
                                 </a>
                             </li>
                             <li className={styles.nav_item}>
                                 <a href="#houses" className={styles.nav_link}>
-                                    <Image src={Icon3} alt="" width={24} height={24} className={styles.icon_nav}/>
+                                    <Image src={Icon3} alt="Icon 3" width={24} height={24} className={styles.icon_nav}/>
                                     <span className={styles.nav_name}>Imóveis</span>
                                 </a>
                             </li>
                             <li className={styles.nav_item}>
                                 <a href="#about" className={styles.nav_link}>
-                                    <Image src={Icon2} alt="" width={24} height={24} className={styles.icon_nav}/>
+                                    <Image src={Icon2} alt="Icon 2" width={24} height={24} className={styles.icon_nav}/>
                                     <span className={styles.nav_name}>Sobre</span>
                                 </a>
                             </li>
                             <li className={styles.nav_item}>
                                 <a href="#contact" className={styles.nav_link}>
-                                    <Image src={Icon4} alt="" width={24} height={24} className={styles.icon_nav}/>
+                                    <Image src={Icon4} alt="Icon 4" width={24} height={24} className={styles.icon_nav}/>
                                     <span className={styles.nav_name}>Contato</span>
                                 </a>
                             </li>
