@@ -84,12 +84,20 @@ const Imoveis = ({imoveis}) =>{
 
 export default Imoveis
 
-
 export async function getStaticProps() {
-    const data = await fetch('http://localhost:3000/api/imoveis')
-    const imoveis = await data.json()
+    // Busca os dados da API de imóveis
+    const response = await fetch('http://localhost:3000/api/imoveis');
 
-    return{
-        props: { imoveis }
+    // Verifica se a requisição foi bem-sucedida
+    if (!response.ok) {
+        throw new Error('Failed to fetch imoveis data');
     }
+
+    // Extrai os dados do objeto Response
+    const imoveis = await response.json();
+
+    return {
+        // Retorna os dados como props para a página
+        props: { imoveis }
+    };
 }
