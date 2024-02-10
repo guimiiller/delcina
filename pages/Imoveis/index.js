@@ -65,13 +65,13 @@ const Imoveis = ({imoveis}) =>{
            <div className={styles.more_grid}>
                 {filteredByCategoria.map((imovel) =>(
                     <div key={imovel.id}>
-                        <Link href={`/Imoveis/${imovel.id}`}><Image src={imovel.photo}/></Link>
+                        <Link href={`/Imoveis/${imovel.id}`}><Image src={imovel.photo} alt="Photo"/></Link>
                         <h3>{imovel.price}</h3>
                         <h2>{imovel.district}</h2>
                         <div className={styles.more_icons}>
-                            <div><Image src={IconBed} alt=''/> <p>{imovel.rooms}</p></div>
-                            <div><Image src={IconShower} alt=''/><p>{imovel.bathrooms}</p></div>
-                            <div><Image src={IconYardstick} alt=''/><p>{imovel.meters}</p></div>
+                            <div><Image src={IconBed} alt='Icon Bed'/> <p>{imovel.rooms}</p></div>
+                            <div><Image src={IconShower} alt='Icon Shower'/><p>{imovel.bathrooms}</p></div>
+                            <div><Image src={IconYardstick} alt='Icon Yardstick'/><p>{imovel.meters}</p></div>
                         </div>
 
                     </div>

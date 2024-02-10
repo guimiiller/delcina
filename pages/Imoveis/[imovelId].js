@@ -243,7 +243,7 @@ export default function Imovel({ imovelData }) {
             className={styles.slider}
           >
             {imovelData.photos.map((photo, index) =>(
-              <SwiperSlide><img key={index} src={photo} alt='' className={styles.photo_main}></img></SwiperSlide>
+              <SwiperSlide><img key={index} src={photo} alt='Slide' className={styles.photo_main}></img></SwiperSlide>
             ))}
             
           </Swiper>
