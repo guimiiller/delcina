@@ -241,9 +241,10 @@ export default function Imovel({ imovelData }) {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
             className={styles.slider}
+            key={imovelData.id}
           >
             {imovelData.photos.map((photo, index) =>(
-              <SwiperSlide><img key={index} src={photo} alt='Slide' className={styles.photo_main}></img></SwiperSlide>
+              <SwiperSlide key={index}><img key={index} src={photo} alt='Slide' className={styles.photo_main}></img></SwiperSlide>
             ))}
             
           </Swiper>
@@ -267,8 +268,8 @@ export default function Imovel({ imovelData }) {
             </div>
             <div className={styles.means_contact}>
               <h2>Entre em contato</h2>
-              <a href='https://api.whatsapp.com/send?phone=5519984179295' target='_blank'><div><button><p>Whatsapp</p><Image src={IconWhats} alt='Icon Whats'/></button></div></a>
-              <a href='https://www.instagram.com/delcinandrade/' target='_blank'><div><button><p>Instagram</p><Image src={IconInstagram} alt='Icon Instagram'/></button></div></a>
+              <Link href='https://api.whatsapp.com/send?phone=5519984179295' target='_blank'><div><button><p>Whatsapp</p><Image src={IconWhats} alt='Icon Whats'/></button></div></Link>
+              <Link href='https://www.instagram.com/delcinandrade/' target='_blank'><div><button><p>Instagram</p><Image src={IconInstagram} alt='Icon Instagram'/></button></div></Link>
             </div>
          </div>
         </div>

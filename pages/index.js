@@ -21,6 +21,7 @@ import { Autoplay, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -225,9 +226,9 @@ export default function Home() {
       </div>
       
       <div className={styles.btn_what}>
-        <a href='https://api.whatsapp.com/send?phone=5519984179295' target='_blank'>
+        <Link href='https://api.whatsapp.com/send?phone=5519984179295' target='_blank'>
           <Image src={IconWhats} alt='Fale comigo pelo WhatsApp' title='Fale comigo pelo WhatsApp'/>
-        </a>
+        </Link>
       </div>
     </>
   )
