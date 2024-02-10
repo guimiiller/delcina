@@ -123,8 +123,8 @@ export default function Home() {
             <Image src={Delcina} alt='Delcina' className={styles.about_profile}/>
             <h3>Delcina Andrade</h3>
             <div className={styles.about_icons_content}>
-              <a href='https://www.facebook.com/profile.php?id=100010263167239' target='_blank'><Image src={IconFacebook} alt='Face Icon' className={styles.about_icon}/></a>
-              <a href='https://www.instagram.com/delcinandrade/' target='_blank'><Image src={IconInstagram} alt='Insta Icon' className={styles.about_icon}/></a> 
+              <Link href='https://www.facebook.com/profile.php?id=100010263167239' target='_blank'><Image src={IconFacebook} alt='Face Icon' className={styles.about_icon}/></Link>
+              <Link href='https://www.instagram.com/delcinandrade/' target='_blank'><Image src={IconInstagram} alt='Insta Icon' className={styles.about_icon}/></Link> 
             </div>
           </div>
         </div>
