@@ -11,30 +11,25 @@ import Head from "next/head";
 const Imoveis = ({imoveis}) =>{
     const [bairroValue, setBairroValue] = useState('')
     const [cidadeValue, setCidadeValue] = useState('');
+    const [categoriaValue, setCategoriaValue] = useState('')
 
     const cidades = [...new Set(imoveis.map(imovel => imovel.city))]
+    const categorias = [...new Set(imoveis.map(imovel => imovel.category))];
 
     const filteredByBairro = bairroValue ? imoveis.filter(item => item.district.toLowerCase().includes(bairroValue.toLowerCase())) : imoveis;
     const filteredByCidade = cidadeValue ? filteredByBairro.filter(item => item.city.toLowerCase().includes(cidadeValue.toLowerCase())) : filteredByBairro;
+    const filteredByCategoria = categoriaValue ? filteredByCidade.filter(item => item.category.toLowerCase() === categoriaValue.toLowerCase()) : filteredByCidade;
 
     return(
         <div className={styles.container}>
             <Head>
-                <title>DA - Mais Imóveis</title>
+                <title>D.A - Mais Imóveis</title>
             </Head>
             <div className={styles.input_container}>
                 <div className={styles.link_back}>
                     <Link href={'/'}><Image src={IconBack} alt="" /></Link>
                 </div>
                 <div className={styles.searchcontainer}>
-                    <div className={styles.input_search}>
-                        <input 
-                            type='search' 
-                            placeholder='Digite o Bairro'
-                            value={bairroValue}
-                            onChange={(e) => setBairroValue(e.target.value)} 
-                        />
-                    </div>
                     <div className={styles.input_search}>
                         <select 
                             value={cidadeValue}
@@ -46,10 +41,29 @@ const Imoveis = ({imoveis}) =>{
                             ))}
                         </select>
                     </div>
+                    <div className={styles.input_search}>
+                        <input 
+                            type='search' 
+                            placeholder='Digite o Bairro'
+                            value={bairroValue}
+                            onChange={(e) => setBairroValue(e.target.value)} 
+                        />
+                    </div>
+                    <div className={styles.input_search}>
+                        <select 
+                            value={categoriaValue}
+                            onChange={(e) => setCategoriaValue(e.target.value)}
+                        >
+                            <option value="">Selecione a Categoria</option>
+                            {categorias.map((categoria, index) => (
+                                <option key={index} value={categoria}>{categoria}</option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
             </div>
            <div className={styles.more_grid}>
-                {filteredByCidade.map((imovel) =>(
+                {filteredByCategoria.map((imovel) =>(
                     <div key={imovel.id}>
                         <Link href={`/Imoveis/${imovel.id}`}><Image src={imovel.photo}/></Link>
                         <h3>{imovel.price}</h3>

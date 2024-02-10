@@ -35,13 +35,14 @@ const imoveisData = [
     garage: 1,
     hall: 2, 
     exchange: true, 
-    financing: true, 
+    financing: true,
+    description: 'Sala de tv, sala de jantar, cozinha, lavabo, 3 quartos (sendo  1 suíte), linda área gourmet c/banheiro,  piscina, terreno 324 mts, construção 180 mts, condomínio 450 reais, excelente localização no condomínio. Entrego com aquecedor solar, piscina aquecida, energia solar, móveis planejados, a combinar, tenho várias indicações, mas não esta incluso no preço.' 
   },
   {
     id: 2, 
     photos: ['/assets/houses/house2/img2_1.jpeg', '/assets/houses/house2/img2_2.jpeg', '/assets/houses/house2/img2_3.jpeg', '/assets/houses/house2/img2_4.jpeg'], 
     city: 'Americana', 
-    district: 'PQ Universitário', 
+    district: 'PQ. Universitário', 
     price: 'R$ 980.000,00', 
     category: 'casa', 
     rooms: 3, 
@@ -51,13 +52,14 @@ const imoveisData = [
     garage: 1,
     hall: 1,  
     exchange: true, 
-    financing: true
+    financing: true,
+    description: 'Casa com acabamento de alto padrão. Metragem terreno esquina 186,60m2, área construída 143,66m2, garagem p/ 02 (dois) carros. Cozinha em conceito aberto integrada com a sala de tv e jantar, pé direito de 4,50m, jardim, área gourmet com churrasqueira, lavabo/ (WC), lavandeira, 03 (três) dormitórios, sendo 01 (uma) suíte, 01 clousd, 01 áreas de luminação. Documentação, OK. '
   },
   {
     id: 3, 
     photos: ['/assets/houses/house3/img3_1.jpeg', '/assets/houses/house3/img3_2.jpeg', '/assets/houses/house3/img3_3.jpeg', '/assets/houses/house3/img3_4.jpeg'], 
     city: 'Americana', 
-    district: 'JD Terramérica', 
+    district: 'JD. Terramérica', 
     price: 'R$ 520.000,00', 
     category: 'casa', 
     rooms: 2, 
@@ -67,14 +69,128 @@ const imoveisData = [
     garage: 1,
     hall: 1, 
     exchange: true, 
-    financing: true
+    financing: true,
+    description: 'Linda casa no Jd Terramérica. Possui 2 dormitórios, cozinha integrada com sala de jantar e sala de TV, banheiro com box, espelho e lavatório de granito, lavanderia, churrasqueira com pia,  3 vagas de garagem, portão eletrônico... Imóvel todo reformado com piso em porcelanato e pintura nova. A casa possui projeto, estrutura e fundação para sobrado e dispõe de um espaçoso gramado ideal para construção de uma piscina.'
   },
-  {id: 4, photos: {}, city: 'Americana',district: 'Cidade Nova', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 5, photos: {}, city: 'Americana',district: 'San Marino', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
-  {id: 6, photos: {}, city: 'Americana',district: 'Jardim Esmeralda', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 7, photos: {}, city: 'Nova Odessa',district: 'Jardim da Paz', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false},
-  {id: 8, photos: {}, city: 'Santa Barbara d Oeste',district: 'Cidade Nova', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: true},
-  {id: 9, photos: {}, city: 'Santa Barbara d Oeste',district: 'San Marino', price: 'R$ 200.000', category: 'casa', rooms: 4, bathrooms: 2, meters: '330 m²', permuta: false}
+  {
+    id: 4, 
+    photos: ['/assets/houses/house4/img4_1.jpeg', '/assets/houses/house4/img4_2.jpeg', '/assets/houses/house4/img4_3.jpeg', '/assets/houses/house4/img4_4.jpeg'], 
+    city: 'Americana', 
+    district: 'Res. Boa Vista', 
+    price: 'R$ 840.000,00', 
+    category: 'casa', 
+    rooms: 3, 
+    bathrooms: 2, 
+    pool: true, 
+    meters: '372 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: true,
+    description: ' 372m² de terreno, 228m² de construção, casa térrea, sala dois ambientes com móveis planejados, 3 dormitórios sendo 1 suíte com Closet, ar condicionado nos ambientes, móveis planejados em todos os cômodos, pé direito alto, sala e cozinha integradas (conceito aberto), área gourmet com churrasqueira e piscina, casa com sistema de energia solar, portão eletrônico e cerca elétrica, garagem coberta para 3 carros.'
+  },
+  {
+    id: 5, 
+    photos: ['/assets/houses/house5/img5_1.jpeg', '/assets/houses/house5/img5_2.jpeg', '/assets/houses/house5/img5_3.jpeg', '/assets/houses/house5/img5_4.jpeg'], 
+    city: 'Americana', 
+    district: 'Vila Carioba', 
+    price: 'R$ 650.000,00', 
+    category: 'casa', 
+    rooms: 3, 
+    bathrooms: 1, 
+    pool: false, 
+    meters: '300 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: true,
+    description: 'Belíssima casa Bairro Vila Carioba, Americana SP, 300 mtrs terreno, 3 dormitórios sendo uma suite, área Gourmet ampla, todos móveis planejados, aceita financiamento, estuda permuta.'
+  },
+  {
+    id: 6, 
+    photos: ['/assets/houses/house6/img6_1.jpeg', '/assets/houses/house6/img6_2.jpeg', '/assets/houses/house6/img6_3.jpeg', '/assets/houses/house6/img6_4.jpeg'], 
+    city: 'Limeira', 
+    district: 'Limeira', 
+    price: 'R$ 850.000,00', 
+    category: 'chácara', 
+    rooms: 3, 
+    bathrooms: 1, 
+    pool: true, 
+    meters: '3000 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: false,
+    description: '2 casas. A principal: 3 dormitórios sendo uma suite, sala jantar, sala tv, cozinha ampla conjugada com sala de jantar conceito aberto, casa toda avarandada, piscina, churrasqueira, várias árvores frutíferas, 3000 mil mtrs. Aceita permuta com imóveis em Campinas.'
+  },
+  {
+    id: 7, 
+    photos: ['/assets/houses/house7/img7_1.jpeg', '/assets/houses/house7/img7_2.jpeg', '/assets/houses/house7/img7_3.jpeg', '/assets/houses/house7/img7_4.jpeg'], 
+    city: 'Americana', 
+    district: 'Recreio Represa', 
+    price: 'R$ 950.000,00', 
+    category: 'chácara', 
+    rooms: 2, 
+    bathrooms: 1, 
+    pool: true, 
+    meters: '5.680 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: true,
+    description: 'R$ 950.000,00-Chácara ESCRITURADA no Bairro Recreio Represa com fundo para a represa, entrada pela Praia Azul, com terreno de 5.680 m² e construção de 148 m², com 02 dormitórios (01 suíte máster), sala,  cozinha planejada e 01 banheiro social com gabinete. A chácara conta com benfeitorias: poço artesiano, com água poço artesiano 120 metros documentado com vasão de 10.000 mil litros por hora de água mineral, área gourmet com churrasqueira, piscina, campo de futebol, 08 Palmeiras imperiais de 25 m altura e com saída para a represa nos fundos da propriedade. Estuda permuta até 50% do valor de venda. Estuda parcelamento direto com o proprietário e aceita financiamento.'
+  },
+  {
+    id: 8, /*FALTA O VALOR */
+    photos: ['/assets/houses/house8/img8_1.jpeg', '/assets/houses/house8/img8_2.jpeg', '/assets/houses/house8/img8_3.jpeg', '/assets/houses/house8/img8_4.jpeg'], 
+    city: 'Americana', 
+    district: 'Praia dos Namorados', 
+    price: 'R$ 800.000,00', 
+    category: 'chácara', 
+    rooms: 2, 
+    bathrooms: 1, 
+    pool: true, 
+    meters: '3.600 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: true,
+    description: 'Excelente chácara no asfalto em Americana, com 3.600 m² com fundo para a represa da Praia dos Namorados. Com piscina, 02 churrasqueiras e deck para jet sky ou barco. Casa sede com 02 dormitórios, sala 02 ambientes, cozinha, banheiro, área de serviço, toda avarandada com vista para a represa e garagem para vários carros. Casa de caseiro com 02 dormitórios, sala, cozinha e 01 banheiro. Aceita financiamento. Estuda troca até 50% (sob análise mercadológica da permuta). Possui escritura e habite se.'
+  },
+  {
+    id: 9, /*FALTA O VALOR */
+    photos: ['/assets/houses/house9/img9_1.jpeg', '/assets/houses/house9/img9_2.jpeg', '/assets/houses/house9/img9_3.jpeg', '/assets/houses/house9/img9_4.jpeg'], 
+    city: 'Limeira', 
+    district: 'Pires de cima', 
+    price: 'R$ 800.000,00', 
+    category: 'chácara', 
+    rooms: 5, 
+    bathrooms: 2, 
+    pool: true, 
+    meters: '3.424,15 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: false,
+    description: 'Área do terreno 3.424,15 m2. Área construída aproximadamente, casa 115 m2, casa do fundo deve ser uns 60 m2. Varanda na casa inteira... aproximadamente 200 mts2. Vendo ou troco excelente chácara, Limeira SP, Bairro Pires de cima. Casa ampla toda avarandada, exelente acabamento, sendo 3 dormitórios com uma suíte, sala Jantar conjugada com sala de TV conceito aberto, cozinha ampla. Segunda Casa, 2 dormitórios, sala, cozinha, banheiros, área Gourmet, piscina, várias árvores frutíferas, excelente localização.'
+  },
+  {
+    id: 10,
+    photos: ['/assets/houses/house10/img10_1.jpeg', '/assets/houses/house10/img10_2.jpeg', '/assets/houses/house10/img10_3.jpeg', '/assets/houses/house10/img10_4.jpeg'], 
+    city: 'Limeira', 
+    district: 'Pires de cima', 
+    price: 'R$ 690.000,00', 
+    category: 'chácara', 
+    rooms: 3, 
+    bathrooms: 1, 
+    pool: true, 
+    meters: '3.000 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: false, 
+    financing: false,
+    description: 'Área do terreno 3.424,15 m2. Área construída aproximadamente, casa 115 m2 e casa do fundo deve ser uns 60 m2. Varanda na casa inteira... aproximadamente 200 mts2. Vendo ou troco excelente chácara, Limeira SP, Bairro Pires de cima. Casa ampla toda avarandada, exelente acabamento, sendo 3 dormitórios com uma suíte, sala Jantar conjugada com sala de TV conceito aberto, cozinha ampla. Segunda Casa, 2 dormitórios, sala, cozinha, banheiros, área Gourmet, piscina, várias árvores frutíferas, excelente localização.'
+  },
 ];
 
 export async function getStaticPaths() {
@@ -155,6 +271,12 @@ export default function Imovel({ imovelData }) {
               <a href='https://www.instagram.com/delcinandrade/' target='_blank'><div><button><p>Instagram</p><Image src={IconInstagram} alt='Icon Instagram'/></button></div></a>
             </div>
          </div>
+        </div>
+      </div>
+      <div className={styles.description_container}>
+        <h2>Descrição</h2>
+        <div>
+          <p>{imovelData.description}</p>
         </div>
       </div>
     </div>
