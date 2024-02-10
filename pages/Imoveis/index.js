@@ -87,10 +87,21 @@ export default Imoveis
 
 export async function getStaticProps() {
     const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL + '/api/imoveis';
-    const response = await fetch(apiUrl);
-    const imoveis = await response.json();
 
-    return {
-        props: { imoveis }
-    };
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+            throw new Error('Failed to fetch imoveis data');
+        }
+        const imoveis = await response.json();
+
+        return {
+            props: { imoveis }
+        };
+    } catch (error) {
+        console.error('Error fetching imoveis data:', error);
+        return {
+            props: { imoveis: [] } // ou qualquer valor de fallback apropriado
+        };
+    }
 }
