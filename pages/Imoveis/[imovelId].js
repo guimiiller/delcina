@@ -110,7 +110,7 @@ const imoveisData = [
     id: 6, 
     photos: ['/assets/houses/house6/img6_1.jpeg', '/assets/houses/house6/img6_2.jpeg', '/assets/houses/house6/img6_3.jpeg', '/assets/houses/house6/img6_4.jpeg'], 
     city: 'Limeira', 
-    district: 'Limeira', 
+    district: 'Pires de Cima', 
     price: 'R$ 850.000,00', 
     category: 'chácara', 
     rooms: 3, 
@@ -158,21 +158,21 @@ const imoveisData = [
     description: 'Excelente chácara no asfalto em Americana, com 3.600 m² com fundo para a represa da Praia dos Namorados. Com piscina, 02 churrasqueiras e deck para jet sky ou barco. Casa sede com 02 dormitórios, sala 02 ambientes, cozinha, banheiro, área de serviço, toda avarandada com vista para a represa e garagem para vários carros. Casa de caseiro com 02 dormitórios, sala, cozinha e 01 banheiro. Aceita financiamento. Estuda troca até 50% (sob análise mercadológica da permuta). Possui escritura e habite se.'
   },
   {
-    id: 9, /*FALTA O VALOR */
+    id: 9,
     photos: ['/assets/houses/house9/img9_1.jpeg', '/assets/houses/house9/img9_2.jpeg', '/assets/houses/house9/img9_3.jpeg', '/assets/houses/house9/img9_4.jpeg'], 
     city: 'Limeira', 
-    district: 'Pires de cima', 
-    price: 'R$ 800.000,00', 
+    district: 'Cond. Santa Mônica', 
+    price: 'R$ 450.000,00', 
     category: 'chácara', 
-    rooms: 5, 
+    rooms: 2, 
     bathrooms: 2, 
     pool: true, 
-    meters: '3.424,15 m²', 
+    meters: '1070 m²', 
     garage: 1,
     hall: 1, 
-    exchange: true, 
+    exchange: false, 
     financing: false,
-    description: 'Área do terreno 3.424,15 m2. Área construída aproximadamente, casa 115 m2, casa do fundo deve ser uns 60 m2. Varanda na casa inteira... aproximadamente 200 mts2. Vendo ou troco excelente chácara, Limeira SP, Bairro Pires de cima. Casa ampla toda avarandada, exelente acabamento, sendo 3 dormitórios com uma suíte, sala Jantar conjugada com sala de TV conceito aberto, cozinha ampla. Segunda Casa, 2 dormitórios, sala, cozinha, banheiros, área Gourmet, piscina, várias árvores frutíferas, excelente localização.'
+    description: '2 dormitórios, sala, cozinha com churrasqueira, 2 banheiros social, piscina, portão eletrônico, 1070 m2. Casa toda avarandada, telhas em cimento madeiramento emparelhado, piscina 8x5 x 1.40, janelas em madeira. Condomínio com  80 chácaras sendo a metade de morador fixo e não pode alugar.'
   },
   {
     id: 10,
