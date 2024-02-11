@@ -225,6 +225,23 @@ const imoveisData = [
     financing: false,
     description: '2 dormitórios com espaço para o terceiro dormitório, sala de estar com lareira integrada com a sala de jantar, copa, cozinha, lavanderia, 3 banheiros social, churrasqueira, piscina aquecida, pequena edícula  com banheiro, galpão, quarto de despejo, garagem para 6 carros, portão eletrônico, 1.100 m2 terreno, 300 m2 construção'
   },
+  {
+    id: 13,
+    photos: ['/assets/houses/house13/img13_1.jpg', '/assets/houses/house13/img13_2.jpg', '/assets/houses/house13/img13_3.jpg', '/assets/houses/house13/img13_4.jpg'], 
+    city: 'Santa Bárbara d Oeste', 
+    district: 'Cruzeiro do Sul',  /*Cidade e Bairro*/
+    price: 'R$ 530.000,00',
+    category: 'chácara', 
+    rooms: 2, 
+    bathrooms: 2, 
+    pool: true, 
+    meters: '730 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: false,
+    description: 'PISCINA, VARANDA, ESPAÇO do CHURRASCO com FOGÃO A LENHA,  POMAR  PRODUZINDO, CASA DE 2 DORMITÓRIOS, 2 BANHEIROS, TERRENO DE 730 m². ESCRITURA. PRATICAMENTE no ASFALTO!! (300 metros do asfalto)! Lugar lindo!! Fácil acesso!! Linda vista!! Perfeito para Morar ou Lazer!! BAIRRO COMPLETO: MERCADOS, PADARIAS, AÇOUGUES, LANCHONETES,  RESTAURANTES, ESCOLA, CRECHE,  POSTO MÉDICO, ACADEMIA, SALÕES DE BELEZA, ÔNIBUS, UBER, ENTREGA de COMPRAS p/ APLICATIVOS (mercado livre,  i-food, shopee, etc), INTERNET, CORREIO, COLETA DE LIXO, ILUMINAÇÃO RUAS, ÁGUA e ESGOTO ENCANADOS, etc '
+  },
 ];
 
 export async function getStaticPaths() {

@@ -19,6 +19,7 @@ import House9_1 from '../../public/assets/houses/house9/img9_1.jpeg';
 import House10_1 from '../../public/assets/houses/house10/img10_1.jpeg';
 import House11_1 from '../../public/assets/houses/house11/img11_1.jpeg';
 import House12_1 from '../../public/assets/houses/house12/img12_1.jpeg';
+import House13_1 from '../../public/assets/houses/house13/img13_1.jpg';
 
 const Imoveis = () => {
     const [bairroValue, setBairroValue] = useState('');
@@ -38,7 +39,8 @@ const Imoveis = () => {
         {id: 9, photo: House9_1, city: 'Limeira', district: 'Pires de cima', price: 'R$ 800.000,00', category: 'chácara', rooms: 5, bathrooms: 2, meters: '3.424,15 m²'},
         {id: 10, photo: House10_1, city: 'Limeira', district: 'Pires de cima', price: 'R$ 690.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '3.000 m²'},
 /*PREÇO*/{id: 11, photo: House11_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 690.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '500 m²'},
-/*Cidade e bairro*/{id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'}
+/*Cidade e bairro*/{id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'},
+        {id: 13, photo: House13_1, city: 'Santa Bárbara d Oeste', district: 'Cruzeiro do Sul', price: 'R$ 530.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '730 m²'},
     ];
 
     // Extrair apenas as cidades dos imóveis
