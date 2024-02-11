@@ -191,6 +191,40 @@ const imoveisData = [
     financing: false,
     description: 'Área do terreno 3.424,15 m2. Área construída aproximadamente, casa 115 m2 e casa do fundo deve ser uns 60 m2. Varanda na casa inteira... aproximadamente 200 mts2. Vendo ou troco excelente chácara, Limeira SP, Bairro Pires de cima. Casa ampla toda avarandada, exelente acabamento, sendo 3 dormitórios com uma suíte, sala Jantar conjugada com sala de TV conceito aberto, cozinha ampla. Segunda Casa, 2 dormitórios, sala, cozinha, banheiros, área Gourmet, piscina, várias árvores frutíferas, excelente localização.'
   },
+  {
+    id: 11,
+    photos: ['/assets/houses/house11/img11_1.jpeg', '/assets/houses/house11/img11_2.jpeg', '/assets/houses/house11/img11_3.jpeg', '/assets/houses/house11/img11_4.jpeg'], 
+    city: 'Limeira', 
+    district: 'Limeira Balsa', 
+    price: 'R$ 690.000,00', /*PREÇO */
+    category: 'chácara', 
+    rooms: 2, 
+    bathrooms: 2, 
+    pool: true, 
+    meters: '500 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: false, 
+    financing: false,
+    description: 'Chácara à venda na Balsa Limeira, 2 dormitórios, salão integrado na cozinha com churrasqueira, 2 banheiros, piscina, quarto para ferramenta e 500 m2.'
+  },
+  {
+    id: 12,
+    photos: ['/assets/houses/house12/img12_1.jpeg', '/assets/houses/house12/img12_2.jpeg', '/assets/houses/house12/img12_3.jpeg', '/assets/houses/house12/img12_4.jpeg'], 
+    city: 'Limeira', 
+    district: 'Limeira Balsa',  /*Cidade e Bairro*/
+    price: 'R$ 900.000,00',
+    category: 'casa', 
+    rooms: 2, 
+    bathrooms: 3, 
+    pool: true, 
+    meters: '1.100 m²', 
+    garage: 1,
+    hall: 1, 
+    exchange: false, 
+    financing: false,
+    description: '2 dormitórios com espaço para o terceiro dormitório, sala de estar com lareira integrada com a sala de jantar, copa, cozinha, lavanderia, 3 banheiros social, churrasqueira, piscina aquecida, pequena edícula  com banheiro, galpão, quarto de despejo, garagem para 6 carros, portão eletrônico, 1.100 m2 terreno, 300 m2 construção'
+  },
 ];
 
 export async function getStaticPaths() {
