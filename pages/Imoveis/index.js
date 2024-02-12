@@ -20,6 +20,8 @@ import House10_1 from '../../public/assets/houses/house10/img10_1.jpeg';
 import House11_1 from '../../public/assets/houses/house11/img11_1.jpeg';
 import House12_1 from '../../public/assets/houses/house12/img12_1.jpeg';
 import House13_1 from '../../public/assets/houses/house13/img13_1.jpg';
+import House14_1 from '../../public/assets/houses/house14/img14_1.jpeg';
+import House15_1 from '../../public/assets/houses/house15/img15_1.jpeg';
 
 const Imoveis = () => {
     const [bairroValue, setBairroValue] = useState('');
@@ -38,9 +40,11 @@ const Imoveis = () => {
         {id: 8, photo: House8_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 800.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '3.600 m²'},
         {id: 9, photo: House9_1, city: 'Limeira', district: 'Cond. Santa Mônica', price: 'R$ 450.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '1070 m²'},
         {id: 10, photo: House10_1, city: 'Limeira', district: 'Pires de cima', price: 'R$ 690.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '3.000 m²'},
-/*PREÇO*/{id: 11, photo: House11_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 690.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '500 m²'},
-/*Cidade e bairro*/{id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'},
-        {id: 13, photo: House13_1, city: 'Santa Bárbara d Oeste', district: 'Cruzeiro do Sul', price: 'R$ 530.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '730 m²'},
+        {id: 11, photo: House11_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 690.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '500 m²'},
+        {id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'},
+        {id: 13, photo: House13_1, city: 'Santa Barbara d Oeste', district: 'Cruzeiro do Sul', price: 'R$ 530.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '730 m²'},
+        {id: 14, photo: House14_1, city: 'Santa Barbara d Oeste', district: 'Boa Vista', price: 'R$ 899.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '500 m²'},
+        {id: 15, photo: House15_1, city: 'Limeira', district: 'Balsa', price: 'R$ 899.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1000 m²'},
     ];
 
     // Extrair apenas as cidades dos imóveis

@@ -144,6 +144,10 @@
     background-color: #e7e7e7;
 }
 
+.code_container{
+    margin-top: 20px;
+}
+
 .imovel_icons{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -180,15 +184,14 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    text-align: center;
     margin-top: 20px;
     box-shadow: 0px 5px 20px #cccccc;
     padding: 20px;
     border-radius: 8px;
 }
 
-.description_container p {
-    font-size: 14px;
+.description_container li {
+    line-height: 25px;
 }
 
 @media(max-width: 927px){
