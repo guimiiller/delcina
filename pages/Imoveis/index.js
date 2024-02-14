@@ -22,6 +22,11 @@ import House12_1 from '../../public/assets/houses/house12/img12_1.jpeg';
 import House13_1 from '../../public/assets/houses/house13/img13_1.jpg';
 import House14_1 from '../../public/assets/houses/house14/img14_1.jpeg';
 import House15_1 from '../../public/assets/houses/house15/img15_1.jpeg';
+import House16_1 from '../../public/assets/houses/house16/img16_1.jpeg';
+import House17_1 from '../../public/assets/houses/house17/img17_1.jpeg';
+import House18_1 from '../../public/assets/houses/house18/img18_1.jpeg';
+import House19_1 from '../../public/assets/houses/house19/img19_1.jpeg';
+import House20_1 from '../../public/assets/houses/house20/img20_1.jpeg';
 
 const Imoveis = () => {
     const [bairroValue, setBairroValue] = useState('');
@@ -32,7 +37,7 @@ const Imoveis = () => {
     const imoveis = [
         {id: 1, photo: House1_1, city: 'Americana', district: 'Americana', price: 'R$ 1.550.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '324 m²'},
         {id: 2, photo: House2_1, city: 'Americana', district: 'PQ. Universitário', price: 'R$ 980.000,00', category: 'casa', rooms: 3, bathrooms: 2, pool: 1, meters: '186,60 m²'},
-        {id: 3, photo: House3_1, city: 'Americana', district: 'JD. Terramérica', price: 'R$ 520.000,00', category: 'casa', rooms: 2, bathrooms: 1, meters: '156,25m²'},
+        {id: 3, photo: House3_1, city: 'Americana', district: 'JD. Terramérica', price: 'R$ 520.000,00', category: 'casa', rooms: 2, bathrooms: 1, meters: '156,25 m²'},
         {id: 4, photo: House4_1, city: 'Americana', district: 'Res. Boa Vista', price: 'R$ 840.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '372 m²'},
         {id: 5, photo: House5_1, city: 'Americana', district: 'Vila Carioba', price: 'R$ 650.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '300 m²'},
         {id: 6, photo: House6_1, city: 'Limeira', district: 'Pires de Cima', price: 'R$ 850.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '3000 m²'},
@@ -44,7 +49,12 @@ const Imoveis = () => {
         {id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'},
         {id: 13, photo: House13_1, city: 'Santa Barbara d Oeste', district: 'Cruzeiro do Sul', price: 'R$ 530.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '730 m²'},
         {id: 14, photo: House14_1, city: 'Santa Barbara d Oeste', district: 'Boa Vista', price: 'R$ 899.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '500 m²'},
-        {id: 15, photo: House15_1, city: 'Limeira', district: 'Balsa', price: 'R$ 899.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1000 m²'},
+        {id: 15, photo: House15_1, city: 'Limeira', district: 'Balsa', price: 'R$ 899.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1.000 m²'},
+        {id: 16, photo: House16_1, city: 'Limeira', district: 'Pinhal', price: 'R$ 1.000.000', category: 'casa', rooms: 2, bathrooms: 1, meters: '23.000  m²'},
+        {id: 17, photo: House17_1, city: 'Limeira', district: 'Cond. Jaguarandi', price: 'R$ 1.000.000', category: 'chácara', rooms: 4, bathrooms: 3, meters: '1.600 m²'},
+        {id: 18, photo: House18_1, city: 'Piracicaba', district: 'Santa Isabel', price: 'R$ 450.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1.356 m²'},
+        {id: 19, photo: House19_1, city: 'Limeira', district: 'Cond. Portal dos Eucaliptos', price: 'R$ 350.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '1.356 m²'},
+        {id: 20, photo: House20_1, city: 'Limeira', district: 'Jd. do lago', price: 'R$ 350.000,00', category: 'casa', rooms: 2, bathrooms: 2, meters: '186 m²'},
     ];
 
     // Extrair apenas as cidades dos imóveis
