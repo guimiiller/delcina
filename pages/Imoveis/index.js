@@ -33,7 +33,7 @@ const Imoveis = () => {
     const [cidadeValue, setCidadeValue] = useState('');
     const [categoriaValue, setCategoriaValue] = useState('');
 
-    // Dados locais
+   
     const imoveis = [
         {id: 1, photo: House1_1, city: 'Americana', district: 'Americana', price: 'R$ 1.550.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '324 m²'},
         {id: 2, photo: House2_1, city: 'Americana', district: 'PQ. Universitário', price: 'R$ 980.000,00', category: 'casa', rooms: 3, bathrooms: 2, pool: 1, meters: '186,60 m²'},
@@ -57,7 +57,7 @@ const Imoveis = () => {
         {id: 20, photo: House20_1, city: 'Limeira', district: 'Jd. do lago', price: 'R$ 350.000,00', category: 'casa', rooms: 2, bathrooms: 2, meters: '186 m²'},
     ];
 
-    // Extrair apenas as cidades dos imóveis
+    
     const cidades = [...new Set(imoveis.map(imovel => imovel.city))];
     const categorias = [...new Set(imoveis.map(imovel => imovel.category))];
 

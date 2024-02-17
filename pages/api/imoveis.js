@@ -24,12 +24,9 @@ const imoveisData = [
 ]
   
   export default function handler(req, res) {
-    // Verifica o método da requisição
     if (req.method === 'GET') {
-      // Retorna os dados dos imóveis como resposta da API
       res.status(200).json(imoveisData);
     } else {
-      // Se o método da requisição não for GET, retorna um erro 405 - Method Not Allowed
       res.setHeader('Allow', ['GET']);
       res.status(405).end(`Method ${req.method} Not Allowed`);
     }

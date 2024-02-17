@@ -19,7 +19,7 @@ import 'swiper/css/pagination';
 import Head from 'next/head';
 
 
-// Dados dos imóveis (ou você pode buscar esses dados de uma API como fizemos anteriormente)
+
 const imoveisData = [
   {
     id: 1, 
@@ -384,10 +384,9 @@ const imoveisData = [
 ];
 
 export async function getStaticPaths() {
-  // Extrai os IDs dos imóveis
+  
   const imoveisIds = imoveisData.map((imovel) => imovel.id);
 
-  // Mapeia os IDs dos imóveis para os paths necessários
   const paths = imoveisIds.map((id) => ({
     params: { imovelId: id.toString() },
   }));
@@ -396,7 +395,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // Busca os dados do imóvel com base no ID fornecido na rota dinâmica
   const imovelId = params.imovelId;
   const imovelData = imoveisData.find(imovel => imovel.id === parseInt(imovelId));
 
@@ -415,7 +413,6 @@ export default function Imovel({ imovelData }) {
   }
 
   const formatDescriptionToList = (description) => {
-    // Substitua o caractere delimitador desejado, como vírgula, ponto-e-vírgula, etc.
     const delimiter = ',';
     return description.split(delimiter).map(item => item.trim());
   };
@@ -488,9 +485,3 @@ export default function Imovel({ imovelData }) {
     </div>
   );
 }
-
-
-/* 
-  X - Códigos CHA24C(claudia) - CHA24K(Karem) - CHA24(Del) - CA(Casa); 
-  Descrição em lista;
-*/
