@@ -256,7 +256,7 @@ const imoveisData = [
     description: 'PISCINA, VARANDA, ESPAÇO do CHURRASCO com FOGÃO A LENHA, POMAR  PRODUZINDO, CASA DE 2 DORMITÓRIOS, 2 BANHEIROS, TERRENO DE 730 m², ESCRITURA, PRATICAMENTE no ASFALTO!! (300 metros do asfalto), Lugar lindo, Fácil acesso, Linda vista, Perfeito para Morar ou Lazer, MERCADOS, PADARIAS, AÇOUGUES, LANCHONETES,  RESTAURANTES, ESCOLA, CRECHE, POSTO MÉDICO, ACADEMIA, SALÕES DE BELEZA, ÔNIBUS, UBER, ENTREGA de COMPRAS p/ APLICATIVOS (mercado-livre - i-food - shopee), INTERNET, CORREIO, COLETA DE LIXO, ILUMINAÇÃO RUAS, ÁGUA e ESGOTO ENCANADOS'
   },
   {
-    id: 14, /*FALTA Desc arrumar*/
+    id: 14,
     photos: ['/assets/houses/house14/img14_1.jpeg', '/assets/houses/house14/img14_2.jpeg', '/assets/houses/house14/img14_3.jpeg', '/assets/houses/house14/img14_4.jpeg'], 
     city: 'Santa Barbara d Oeste', 
     district: 'Boa Vista',
@@ -324,7 +324,7 @@ const imoveisData = [
     hall: 1, 
     exchange: true, 
     financing: false,
-    code: 'CHA10',
+    code: 'CHA10C',
     description: '2 casas, 4 dormitórios um com suíte, Sala, Copa, 3 banheiros, Área com churrasqueira, Fogão a lenha, Piscina, Lavanderia, Garagem, Tanque com carpas ornamentais, Pés de frutas, Internet Fibra Ótica, TV, Portão do condomínio abre portas pelo aplicativo ou controle, Valor do condomínio 180 já incluso água, Documentação fundiária em andamento'
   },
   {
@@ -355,7 +355,7 @@ const imoveisData = [
     rooms: 3, 
     bathrooms: 1, 
     pool: true, 
-    meters: '1.356 m²',  /*FALTA METROS */
+    meters: '1.250 m²',
     garage: 1,
     hall: 1, 
     exchange: true, 
@@ -368,7 +368,7 @@ const imoveisData = [
     photos: ['/assets/houses/house20/img20_1.jpeg', '/assets/houses/house20/img20_2.jpeg', '/assets/houses/house20/img20_3.jpeg', '/assets/houses/house20/img20_4.jpeg'], 
     city: 'Limeira', 
     district: 'Jd. do lago',
-    price: 'R$ 350.000,00', /*FALTA PREÇO */
+    price: 'R$ 600.000,00', /*FALTA PREÇO */
     category: 'casa', 
     rooms: 2, 
     bathrooms: 2, 
@@ -380,6 +380,24 @@ const imoveisData = [
     financing: false,
     code: 'CA08',
     description: '2 quartos, 1 suíte, Sala, Cozinha, Área gourmet, Garagem coberta para 2 carros, Cerca elétrica, Energia solar, Ar condicionado em todos os cômodos, Cozinha planejada ( armário embutido), Suite planejada.'
+  },
+  {
+    id: 21,
+    photos: ['/assets/houses/house21/img21_1.jpeg', '/assets/houses/house21/img21_2.jpeg', '/assets/houses/house21/img21_3.jpeg', '/assets/houses/house21/img21_4.jpeg'], 
+    city: 'Americana', 
+    district: 'Carioba',
+    price: 'R$ 510.000,00', /*FALTA PREÇO */
+    category: 'casa', 
+    rooms: 3, 
+    bathrooms: 1, 
+    pool: false, 
+    meters: '175 m²',
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: true,
+    code: 'CA09',
+    description: '3 dormitórios sendo uma suite, 175 mtrs terreno, Espaço Piscina, Área gourmet, Portão eletrônico, Pé direito alto, Excelente acabamento, Toda em porcelanato'
   },
 ];
 
