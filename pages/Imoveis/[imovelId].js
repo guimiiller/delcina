@@ -59,7 +59,7 @@ const imoveisData = [
   },
   {
     id: 3, 
-    photos: ['/assets/houses/house3/img3_1.jpeg', '/assets/houses/house3/img3_2.jpeg', '/assets/houses/house3/img3_3.jpeg', '/assets/houses/house3/img3_4.jpeg'], 
+    photos: ['/assets/houses/house3/img3_1.jpeg', '/assets/houses/house3/img3_2.jpeg', '/assets/houses/house3/img3_3.jpeg', '/assets/houses/house3/img3_4.jpeg', '/assets/houses/house3/img3_5.jpeg', '/assets/houses/house3/img3_6.jpeg', '/assets/houses/house3/img3_7.jpeg'], 
     city: 'Americana', 
     district: 'JD. Terramérica', 
     price: 'R$ 520.000,00', 
@@ -77,7 +77,7 @@ const imoveisData = [
   },
   {
     id: 4, 
-    photos: ['/assets/houses/house4/img4_1.jpeg', '/assets/houses/house4/img4_2.jpeg', '/assets/houses/house4/img4_3.jpeg', '/assets/houses/house4/img4_4.jpeg'], 
+    photos: ['/assets/houses/house4/img4_1.jpeg', '/assets/houses/house4/img4_2.jpeg', '/assets/houses/house4/img4_3.jpeg', '/assets/houses/house4/img4_4.jpeg', '/assets/houses/house4/img4_5.jpeg', '/assets/houses/house4/img4_6.jpeg', '/assets/houses/house4/img4_7.jpeg'], 
     city: 'Americana', 
     district: 'Res. Boa Vista', 
     price: 'R$ 840.000,00', 
@@ -131,7 +131,7 @@ const imoveisData = [
   },
   {
     id: 7, 
-    photos: ['/assets/houses/house7/img7_1.jpeg', '/assets/houses/house7/img7_2.jpeg', '/assets/houses/house7/img7_3.jpeg', '/assets/houses/house7/img7_4.jpeg'], 
+    photos: ['/assets/houses/house7/img7_1.jpeg', '/assets/houses/house7/img7_2.jpeg', '/assets/houses/house7/img7_3.jpeg', '/assets/houses/house7/img7_4.jpeg', '/assets/houses/house7/img7_5.jpeg'], 
     city: 'Nova Odessa', 
     district: 'Recreio Represa', 
     price: 'R$ 950.000,00', 
@@ -149,7 +149,7 @@ const imoveisData = [
   },
   {
     id: 8, /*FALTA O VALOR */
-    photos: ['/assets/houses/house8/img8_1.jpeg', '/assets/houses/house8/img8_2.jpeg', '/assets/houses/house8/img8_3.jpeg', '/assets/houses/house8/img8_4.jpeg'], 
+    photos: ['/assets/houses/house8/img8_1.jpeg', '/assets/houses/house8/img8_2.jpeg', '/assets/houses/house8/img8_3.jpeg', '/assets/houses/house8/img8_4.jpeg', '/assets/houses/house8/img8_5.jpeg', '/assets/houses/house8/img8_6.jpeg'], 
     city: 'Americana', 
     district: 'Praia dos Namorados', 
     price: 'R$ 1.300.000.00', 
