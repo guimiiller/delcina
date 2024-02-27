@@ -31,6 +31,7 @@ import House21_1 from '../../public/assets/houses/house21/img21_1.jpeg';
 import House22_1 from '../../public/assets/houses/house22/img22_1.jpeg';
 import House23_1 from '../../public/assets/houses/house23/img23_1.jpeg';
 import House24_1 from '../../public/assets/houses/house24/img24_1.jpeg';
+import House25_1 from '../../public/assets/houses/house25/img25_1.jpeg';
 
 const Imoveis = () => {
     const [bairroValue, setBairroValue] = useState('');
@@ -63,6 +64,7 @@ const Imoveis = () => {
         {id: 22, photo: House22_1, city: 'Americana', district: 'Nossa Senhora do Carmo', price: 'R$ 380.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '300 m²'},
         {id: 23, photo: House23_1, city: 'Nova Odessa', district: 'Jd. do Lago', price: 'R$ 320.000,00', category: 'casa', rooms: 1, bathrooms: 1, meters: '250 m²'},
         {id: 24, photo: House24_1, city: 'Santa Barbara d Oeste', district: 'Mollon', price: 'R$ 600.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '150 m²'},
+        {id: 25, photo: House25_1, city: 'Santa Barbara d Oeste', district: 'Candido Bertine', price: 'R$ 600.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '250 m²'},
     ];
 
     
