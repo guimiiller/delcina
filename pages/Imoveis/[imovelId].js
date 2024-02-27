@@ -458,7 +458,7 @@ const imoveisData = [
     photos: ['/assets/houses/house25/img25_1.jpeg', '/assets/houses/house25/img25_2.jpeg', '/assets/houses/house25/img25_3.jpeg', '/assets/houses/house25/img25_4.jpeg', '/assets/houses/house25/img25_5.jpeg', '/assets/houses/house25/img25_6.jpeg'], 
     city: 'Santa Barbara d Oeste', 
     district: 'Candido Bertine',
-    price: 'R$ 600.000,00', 
+    price: 'R$ 790.000,00', 
     category: 'casa', 
     rooms: 3, 
     bathrooms: 2, 

@@ -64,7 +64,7 @@ const Imoveis = () => {
         {id: 22, photo: House22_1, city: 'Americana', district: 'Nossa Senhora do Carmo', price: 'R$ 380.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '300 m²'},
         {id: 23, photo: House23_1, city: 'Nova Odessa', district: 'Jd. do Lago', price: 'R$ 320.000,00', category: 'casa', rooms: 1, bathrooms: 1, meters: '250 m²'},
         {id: 24, photo: House24_1, city: 'Santa Barbara d Oeste', district: 'Mollon', price: 'R$ 600.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '150 m²'},
-        {id: 25, photo: House25_1, city: 'Santa Barbara d Oeste', district: 'Candido Bertine', price: 'R$ 600.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '250 m²'},
+        {id: 25, photo: House25_1, city: 'Santa Barbara d Oeste', district: 'Candido Bertine', price: 'R$ 790.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '250 m²'},
     ];
 
     
