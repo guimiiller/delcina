@@ -167,7 +167,7 @@ const imoveisData = [
   },
   {
     id: 9,
-    photos: ['/assets/houses/house9/img9_1.jpeg', '/assets/houses/house9/img9_2.jpeg', '/assets/houses/house9/img9_3.jpeg', '/assets/houses/house9/img9_4.jpeg'], 
+    photos: ['/assets/houses/house9/img9_1.jpeg', '/assets/houses/house9/img9_2.jpeg', '/assets/houses/house9/img9_3.jpeg', '/assets/houses/house9/img9_4.jpeg', '/assets/houses/house9/img9_5.jpeg', '/assets/houses/house9/img9_6.jpeg', '/assets/houses/house9/img9_7.jpeg'], 
     city: 'Limeira', 
     district: 'Cond. Santa Mônica', 
     price: 'R$ 450.000,00', 
@@ -185,7 +185,7 @@ const imoveisData = [
   },
   {
     id: 10,
-    photos: ['/assets/houses/house10/img10_1.jpeg', '/assets/houses/house10/img10_2.jpeg', '/assets/houses/house10/img10_3.jpeg', '/assets/houses/house10/img10_4.jpeg'], 
+    photos: ['/assets/houses/house10/img10_1.jpeg', '/assets/houses/house10/img10_2.jpeg', '/assets/houses/house10/img10_3.jpeg', '/assets/houses/house10/img10_4.jpeg', '/assets/houses/house10/img10_5.jpeg', '/assets/houses/house10/img10_6.jpeg', '/assets/houses/house10/img10_7.jpeg'], 
     city: 'Limeira', 
     district: 'Pires de cima', 
     price: 'R$ 690.000,00', 
@@ -221,7 +221,7 @@ const imoveisData = [
   },
   {
     id: 12,
-    photos: ['/assets/houses/house12/img12_1.jpeg', '/assets/houses/house12/img12_2.jpeg', '/assets/houses/house12/img12_3.jpeg', '/assets/houses/house12/img12_4.jpeg'], 
+    photos: ['/assets/houses/house12/img12_1.jpeg', '/assets/houses/house12/img12_2.jpeg', '/assets/houses/house12/img12_3.jpeg', '/assets/houses/house12/img12_4.jpeg', '/assets/houses/house12/img12_5.jpeg', '/assets/houses/house12/img12_6.jpeg', '/assets/houses/house12/img12_7.jpeg', '/assets/houses/house12/img12_8.jpeg'], 
     city: 'Limeira', 
     district: 'Limeira Balsa',  /*Cidade e Bairro*/
     price: 'R$ 900.000,00',
@@ -257,7 +257,7 @@ const imoveisData = [
   },
   {
     id: 14,
-    photos: ['/assets/houses/house14/img14_1.jpeg', '/assets/houses/house14/img14_2.jpeg', '/assets/houses/house14/img14_3.jpeg', '/assets/houses/house14/img14_4.jpeg'], 
+    photos: ['/assets/houses/house14/img14_1.jpeg', '/assets/houses/house14/img14_2.jpeg', '/assets/houses/house14/img14_3.jpeg', '/assets/houses/house14/img14_4.jpeg', '/assets/houses/house14/img14_5.jpeg', '/assets/houses/house14/img14_6.jpeg', '/assets/houses/house14/img14_7.jpeg', '/assets/houses/house14/img14_8.jpeg'], 
     city: 'Santa Barbara d Oeste', 
     district: 'Boa Vista',
     price: 'R$ 899.000,00',
@@ -275,7 +275,7 @@ const imoveisData = [
   },
   {
     id: 15,
-    photos: ['/assets/houses/house15/img15_1.jpeg', '/assets/houses/house15/img15_2.jpeg', '/assets/houses/house15/img15_3.jpeg', '/assets/houses/house15/img15_4.jpeg'], 
+    photos: ['/assets/houses/house15/img15_1.jpeg', '/assets/houses/house15/img15_2.jpeg', '/assets/houses/house15/img15_3.jpeg', '/assets/houses/house15/img15_4.jpeg', '/assets/houses/house15/img15_5.jpeg', '/assets/houses/house15/img15_6.jpeg'], 
     city: 'Limeira', 
     district: 'Balsa',
     price: 'R$ 899.000,00',
@@ -293,7 +293,7 @@ const imoveisData = [
   },
   {
     id: 16,
-    photos: ['/assets/houses/house16/img16_1.jpeg', '/assets/houses/house16/img16_2.jpeg', '/assets/houses/house16/img16_3.jpeg', '/assets/houses/house16/img16_4.jpeg'], 
+    photos: ['/assets/houses/house16/img16_1.jpeg', '/assets/houses/house16/img16_2.jpeg', '/assets/houses/house16/img16_3.jpeg', '/assets/houses/house16/img16_4.jpeg', '/assets/houses/house16/img16_5.jpeg', '/assets/houses/house16/img16_6.jpeg'], 
     city: 'Limeira', 
     district: 'Pinhal',
     price: 'R$ 1.000.000',
