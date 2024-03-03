@@ -567,7 +567,7 @@ export default function Imovel({ imovelData }) {
         <div>
           <ul>
             {descricaoItens.map((item, index) => (
-              <li key={index}>• {item.trim()}</li>
+              <li key={index}>✅ {item.trim()}</li>
             ))}
           </ul>
         </div>
