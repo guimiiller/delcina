@@ -310,8 +310,8 @@ const imoveisData = [
     description: 'Sitio 23 mil metros quadrados, Riacho nos fundos, Casa, 2 dormitórios, Banheiro, Sala, Cozinha, Área, Banheiro externo, Poço, Árvores frutíferas'
   },
   {
-    id: 17, /*FALTA PREÇO */
-    photos: ['/assets/houses/house17/img17_1.jpeg', '/assets/houses/house17/img17_2.jpeg', '/assets/houses/house17/img17_3.jpeg', '/assets/houses/house17/img17_4.jpeg'], 
+    id: 17, 
+    photos: ['/assets/houses/house17/img17_1.jpeg', '/assets/houses/house17/img17_2.jpeg', '/assets/houses/house17/img17_3.jpeg', '/assets/houses/house17/img17_4.jpeg', '/assets/houses/house17/img17_5.jpeg', '/assets/houses/house17/img17_6.jpeg', '/assets/houses/house17/img17_7.jpeg', '/assets/houses/house17/img17_8.jpeg'], 
     city: 'Limeira', 
     district: 'Cond. Jaguarandi',
     price: 'R$ 1.000.000',
@@ -329,7 +329,7 @@ const imoveisData = [
   },
   {
     id: 18,
-    photos: ['/assets/houses/house18/img18_1.jpeg', '/assets/houses/house18/img18_2.jpeg', '/assets/houses/house18/img18_3.jpeg', '/assets/houses/house18/img18_4.jpeg'], 
+    photos: ['/assets/houses/house18/img18_1.jpeg', '/assets/houses/house18/img18_2.jpeg', '/assets/houses/house18/img18_3.jpeg', '/assets/houses/house18/img18_4.jpeg', '/assets/houses/house18/img18_5.jpeg', '/assets/houses/house18/img18_6.jpeg', '/assets/houses/house18/img18_7.jpeg'], 
     city: 'Piracicaba', 
     district: 'Santa Isabel',
     price: 'R$ 450.000,00',
@@ -347,7 +347,7 @@ const imoveisData = [
   },
   {
     id: 19,
-    photos: ['/assets/houses/house19/img19_1.jpeg', '/assets/houses/house19/img19_2.jpeg', '/assets/houses/house19/img19_3.jpeg', '/assets/houses/house19/img19_4.jpeg'], 
+    photos: ['/assets/houses/house19/img19_1.jpeg', '/assets/houses/house19/img19_2.jpeg', '/assets/houses/house19/img19_3.jpeg', '/assets/houses/house19/img19_4.jpeg', '/assets/houses/house19/img19_5.jpeg', '/assets/houses/house19/img19_6.jpeg'], 
     city: 'Limeira', 
     district: 'Portal dos Eucaliptos',
     price: 'R$ 350.000,00',
@@ -437,7 +437,7 @@ const imoveisData = [
   },
   {
     id: 24,
-    photos: ['/assets/houses/house24/img24_1.jpeg', '/assets/houses/house24/img24_2.jpeg', '/assets/houses/house24/img24_3.jpeg', '/assets/houses/house24/img24_4.jpeg'], 
+    photos: ['/assets/houses/house24/img24_1.jpeg', '/assets/houses/house24/img24_2.jpeg', '/assets/houses/house24/img24_3.jpeg', '/assets/houses/house24/img24_4.jpeg', '/assets/houses/house24/img24_5.jpeg', '/assets/houses/house24/img24_6.jpeg', '/assets/houses/house24/img24_7.jpeg', '/assets/houses/house24/img24_8.jpeg'], 
     city: 'Santa Barbara d Oeste', 
     district: 'Mollon',
     price: 'R$ 600.000,00', 
@@ -455,7 +455,7 @@ const imoveisData = [
   },
   {
     id: 25,
-    photos: ['/assets/houses/house25/img25_1.jpeg', '/assets/houses/house25/img25_2.jpeg', '/assets/houses/house25/img25_3.jpeg', '/assets/houses/house25/img25_4.jpeg', '/assets/houses/house25/img25_5.jpeg', '/assets/houses/house25/img25_6.jpeg'], 
+    photos: ['/assets/houses/house25/img25_1.jpeg', '/assets/houses/house25/img25_2.jpeg', '/assets/houses/house25/img25_3.jpeg', '/assets/houses/house25/img25_4.jpeg', '/assets/houses/house25/img25_5.jpeg', '/assets/houses/house25/img25_6.jpeg', '/assets/houses/house25/img25_7.jpeg', '/assets/houses/house25/img25_8.jpeg', '/assets/houses/house25/img25_9.jpeg', '/assets/houses/house25/img25_10.jpeg'], 
     city: 'Santa Barbara d Oeste', 
     district: 'Candido Bertine',
     price: 'R$ 790.000,00', 
