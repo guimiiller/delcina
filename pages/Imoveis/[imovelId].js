@@ -471,6 +471,42 @@ const imoveisData = [
     code: 'CA13',
     description: '3 dormitórios sendo uma suite, Escritório, Sala, Cozinha, Área gourmet, Garagem 4 carros'
   },
+  {
+    id: 26,
+    photos: ['/assets/houses/house26/img26_1.jpeg', '/assets/houses/house26/img26_2.jpeg', '/assets/houses/house26/img26_3.jpeg', '/assets/houses/house26/img26_4.jpeg', '/assets/houses/house26/img26_6.jpeg', '/assets/houses/house26/img26_6.jpeg', '/assets/houses/house26/img26_7.jpeg'], 
+    city: 'Americana', 
+    district: 'São Vito',
+    price: 'R$ 450.000,00', 
+    category: 'casa', 
+    rooms: 4, 
+    bathrooms: 2, 
+    pool: false, 
+    meters: '230 m²',
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: true,
+    code: 'CA14',
+    description: '4 dormitórios sendo uma suite, Sala, Cozinha, Sala jantar, Churrasqueira, Área gourmet ampla, Edicula nos fundos, 170 mtrs terreno, 230 mtrs de construção'
+  },
+  {
+    id: 27,
+    photos: ['/assets/houses/house27/img27_1.jpeg', '/assets/houses/house27/img27_2.jpeg', '/assets/houses/house27/img27_3.jpeg', '/assets/houses/house27/img27_4.jpeg', '/assets/houses/house27/img27_6.jpeg', '/assets/houses/house27/img27_6.jpeg', '/assets/houses/house27/img27_7.jpeg'], 
+    city: 'Americana', 
+    district: 'Terramérica',
+    price: 'R$ 1.380.000,00', 
+    category: 'casa', 
+    rooms: 3, 
+    bathrooms: 4, 
+    pool: true, 
+    meters: '300 m²',
+    garage: 1,
+    hall: 1, 
+    exchange: false, 
+    financing: true,
+    code: 'CA15',
+    description: '300 mts terreno, 220 mts Construção, 3 suítes, 1 lavabo, Sala / copa  pé direito alto, Cozinha gourmet com churrasqueira, Deposito, Piscina, Iluminação em leds, Esquadrias em alumínio em toda casa, Paisagismo, Energia solar pre instalado faltando so placas solar, Infra pra ar condicionado, Fino acabamento, Ótima localização no bairro'
+  },
 ];
 
 export async function getStaticPaths() {
