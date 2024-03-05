@@ -473,7 +473,7 @@ const imoveisData = [
   },
   {
     id: 26,
-    photos: ['/assets/houses/house26/img26_1.jpeg', '/assets/houses/house26/img26_2.jpeg', '/assets/houses/house26/img26_3.jpeg', '/assets/houses/house26/img26_4.jpeg', '/assets/houses/house26/img26_6.jpeg', '/assets/houses/house26/img26_7.jpeg', '/assets/houses/house26/img26_8.jpeg'], 
+    photos: ['/assets/houses/house26/img26_1.jpeg', '/assets/houses/house26/img26_2.jpeg', '/assets/houses/house26/img26_3.jpeg', '/assets/houses/house26/img26_4.jpeg', '/assets/houses/house26/img26_5.jpeg', '/assets/houses/house26/img26_6.jpeg', '/assets/houses/house26/img26_7.jpeg'], 
     city: 'Americana', 
     district: 'São Vito',
     price: 'R$ 450.000,00', 
