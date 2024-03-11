@@ -507,6 +507,42 @@ const imoveisData = [
     code: 'CA15',
     description: '300 mts terreno, 220 mts Construção, 3 suítes, 1 lavabo, Sala / copa  pé direito alto, Cozinha gourmet com churrasqueira, Deposito, Piscina, Iluminação em leds, Esquadrias em alumínio em toda casa, Paisagismo, Energia solar pre instalado faltando so placas solar, Infra pra ar condicionado, Fino acabamento, Ótima localização no bairro'
   },
+  {
+    id: 28,
+    photos: ['/assets/houses/house28/img28_1.jpeg', '/assets/houses/house28/img28_2.jpeg', '/assets/houses/house28/img28_3.jpeg', '/assets/houses/house28/img28_4.jpeg', '/assets/houses/house28/img28_5.jpeg', '/assets/houses/house28/img27_6.jpeg'], 
+    city: 'Americana', 
+    district: 'Praia dos Namorados',
+    price: 'R$ 300.000,00', 
+    category: 'casa', 
+    rooms: 2, 
+    bathrooms: 2, 
+    pool: false, 
+    meters: '300 m²',
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: false,
+    code: 'CA16',
+    description: '2 dormitórios sendo uma suite, Sala, Cozinha, Lavanderia, Banheiro social'
+  },
+  {
+    id: 29,
+    photos: ['/assets/houses/house29/img29_1.jpeg', '/assets/houses/house29/img29_2.jpeg', '/assets/houses/house29/img29_3.jpeg', '/assets/houses/house29/img29_4.jpeg', '/assets/houses/house29/img29_5.jpeg', '/assets/houses/house29/img29_6.jpeg', '/assets/houses/house29/img29_7.jpeg'], 
+    city: 'Americana', 
+    district: 'Praia dos Namorados',
+    price: 'R$ 1.999.000,00', 
+    category: 'chacara', 
+    rooms: 3, 
+    bathrooms: 2, 
+    pool: true, 
+    meters: '5000 m²',
+    garage: 1,
+    hall: 1, 
+    exchange: true, 
+    financing: false,
+    code: 'CHA13',
+    description: '5000 mil mtrs, Fundo com represa, Casa ampla avarandada, 3 dormitórios sendo 2 suíte, 3 salas, Cozinha ampla, Churrasqueira, Piscina ampla, Excelente visão panorâmica'
+  },
 ];
 
 export async function getStaticPaths() {

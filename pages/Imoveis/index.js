@@ -34,6 +34,8 @@ import House24_1 from '../../public/assets/houses/house24/img24_1.jpeg';
 import House25_1 from '../../public/assets/houses/house25/img25_1.jpeg';
 import House26_1 from '../../public/assets/houses/house26/img26_1.jpeg';
 import House27_1 from '../../public/assets/houses/house27/img27_1.jpeg';
+import House28_1 from '../../public/assets/houses/house28/img28_1.jpeg';
+import House29_1 from '../../public/assets/houses/house29/img29_1.jpeg';
 
 const Imoveis = () => {
     const [bairroValue, setBairroValue] = useState('');
@@ -69,6 +71,8 @@ const Imoveis = () => {
         {id: 25, photo: House25_1, city: 'Santa Barbara d Oeste', district: 'Candido Bertine', price: 'R$ 790.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '250 m²'},
         {id: 26, photo: House26_1, city: 'Americana', district: 'São Vito', price: 'R$ 450.000,00', category: 'casa', rooms: 4, bathrooms: 2, meters: '230 m²'},
         {id: 27, photo: House27_1, city: 'Americana', district: 'Terramérica', price: 'R$ 1.380.000,00', category: 'casa', rooms: 3, bathrooms: 4, meters: '300 m²'},
+        {id: 28, photo: House28_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 300.000,00', category: 'casa', rooms: 2, bathrooms: 2, meters: '300 m²'},
+        {id: 29, photo: House29_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 1.999.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '5000 m²'},
     ];
 
     
