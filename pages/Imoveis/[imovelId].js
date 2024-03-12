@@ -509,7 +509,7 @@ const imoveisData = [
   },
   {
     id: 28,
-    photos: ['/assets/houses/house28/img28_1.jpeg', '/assets/houses/house28/img28_2.jpeg', '/assets/houses/house28/img28_3.jpeg', '/assets/houses/house28/img28_4.jpeg', '/assets/houses/house28/img28_5.jpeg', '/assets/houses/house28/img27_6.jpeg'], 
+    photos: ['/assets/houses/house28/img28_1.jpeg', '/assets/houses/house28/img28_2.jpeg', '/assets/houses/house28/img28_3.jpeg', '/assets/houses/house28/img28_4.jpeg', '/assets/houses/house28/img28_5.jpeg', '/assets/houses/house28/img28_6.jpeg'], 
     city: 'Americana', 
     district: 'Praia dos Namorados',
     price: 'R$ 300.000,00', 
