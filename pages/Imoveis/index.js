@@ -51,7 +51,7 @@ const Imoveis = () => {
         {id: 5, photo: House5_1, city: 'Americana', district: 'Vila Carioba', price: 'R$ 650.000,00', category: 'casa', rooms: 3, bathrooms: 1, meters: '300 m²'},
         {id: 6, photo: House6_1, city: 'Limeira', district: 'Pires de Cima', price: 'R$ 850.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '3000 m²'},
         {id: 7, photo: House7_1, city: 'Americana', district: 'Recreio Represa', price: 'R$ 950.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '5.680 m²'},
-        {id: 8, photo: House8_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 800.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '3.600 m²'},
+        {id: 8, photo: House8_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 1.300.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '3.600 m²'},
         {id: 9, photo: House9_1, city: 'Limeira', district: 'Cond. Santa Mônica', price: 'R$ 450.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '1070 m²'},
         {id: 10, photo: House10_1, city: 'Limeira', district: 'Pires de cima', price: 'R$ 690.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '3.000 m²'},
         {id: 11, photo: House11_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 690.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '500 m²'},

@@ -59,7 +59,7 @@ const imoveisData = [
   },
   {
     id: 3, 
-    photos: ['/assets/houses/house3/img3_1.jpeg', '/assets/houses/house3/img3_2.jpeg', '/assets/houses/house3/img3_3.jpeg', '/assets/houses/house3/img3_4.jpeg', '/assets/houses/house3/img3_5.jpeg', '/assets/houses/house3/img3_6.jpeg', '/assets/houses/house3/img3_7.jpeg'], 
+    photos: ['/assets/houses/house3/img3_1.jpeg', '/assets/houses/house3/img3_2.jpeg', '/assets/houses/house3/img3_3.jpeg', '/assets/houses/house3/img3_4.jpeg', '/assets/houses/house3/img3_5.jpeg', '/assets/houses/house3/img3_6.jpeg', '/assets/houses/house3/img3_7.jpeg', '/assets/houses/house3/img3_8.jpeg', '/assets/houses/house3/img3_9.jpeg', '/assets/houses/house3/img3_10.jpeg', '/assets/houses/house3/img3_11.jpeg', '/assets/houses/house3/img3_12.jpeg', '/assets/houses/house3/img3_13.jpeg', '/assets/houses/house3/img3_14.jpeg', '/assets/houses/house3/img3_15.jpeg'], 
     city: 'Americana', 
     district: 'JD. Terramérica', 
     price: 'R$ 520.000,00', 
@@ -202,7 +202,7 @@ const imoveisData = [
     description: 'Área do terreno 3.424 m2, Área construída aproximadamente, Casa 115 m2 e casa do fundo deve ser uns 60 m2, Varanda na casa inteira aproximadamente 200 mts2, Vendo ou troco excelente chácara em Limeira SP Bairro Pires de cima, Casa ampla toda avarandada, Excelente acabamento, Sendo 5 dormitórios com uma suíte, Sala Jantar conjugada com sala de TV conceito aberto, Cozinha ampla, Sala, Cozinha, Banheiros, Área Gourmet, Piscina, Várias árvores frutíferas, Excelente localização, Duas casas'
   },
   {
-    id: 11,
+    id: 11, /* tira */
     photos: ['/assets/houses/house11/img11_1.jpeg', '/assets/houses/house11/img11_2.jpeg', '/assets/houses/house11/img11_3.jpeg', '/assets/houses/house11/img11_4.jpeg'], 
     city: 'Limeira', 
     district: 'Limeira Balsa', 
@@ -293,7 +293,7 @@ const imoveisData = [
   },
   {
     id: 16,
-    photos: ['/assets/houses/house16/img16_1.jpeg', '/assets/houses/house16/img16_2.jpeg', '/assets/houses/house16/img16_3.jpeg', '/assets/houses/house16/img16_4.jpeg', '/assets/houses/house16/img16_5.jpeg', '/assets/houses/house16/img16_6.jpeg'], 
+    photos: ['/assets/houses/house16/img16_1.jpeg', '/assets/houses/house16/img16_2.jpeg', '/assets/houses/house16/img16_3.jpeg', '/assets/houses/house16/img16_4.jpeg', '/assets/houses/house16/img16_5.jpeg', '/assets/houses/house16/img16_6.jpeg', '/assets/houses/house16/img16_7.jpeg', '/assets/houses/house16/img16_8.jpeg', '/assets/houses/house16/img16_9.jpeg', '/assets/houses/house16/img16_10.jpeg', '/assets/houses/house16/img16_11.jpeg', '/assets/houses/house16/img16_12.jpeg', '/assets/houses/house16/img16_13.jpeg', '/assets/houses/house16/img16_14.jpeg', '/assets/houses/house16/img16_15.jpeg'], 
     city: 'Limeira', 
     district: 'Pinhal',
     price: 'R$ 1.000.000',
@@ -311,7 +311,7 @@ const imoveisData = [
   },
   {
     id: 17, 
-    photos: ['/assets/houses/house17/img17_1.jpeg', '/assets/houses/house17/img17_2.jpeg', '/assets/houses/house17/img17_3.jpeg', '/assets/houses/house17/img17_4.jpeg', '/assets/houses/house17/img17_5.jpeg', '/assets/houses/house17/img17_6.jpeg', '/assets/houses/house17/img17_7.jpeg', '/assets/houses/house17/img17_8.jpeg'], 
+    photos: ['/assets/houses/house17/img17_1.jpeg', '/assets/houses/house17/img17_2.jpeg', '/assets/houses/house17/img17_3.jpeg', '/assets/houses/house17/img17_4.jpeg', '/assets/houses/house17/img17_5.jpeg', '/assets/houses/house17/img17_6.jpeg', '/assets/houses/house17/img17_7.jpeg', '/assets/houses/house17/img17_8.jpeg', '/assets/houses/house17/img17_9.jpeg', '/assets/houses/house17/img17_10.jpeg', '/assets/houses/house17/img17_11.jpeg', '/assets/houses/house17/img17_12.jpeg', '/assets/houses/house17/img17_13.jpeg', '/assets/houses/house17/img17_14.jpeg', '/assets/houses/house17/img17_15.jpeg'], 
     city: 'Limeira', 
     district: 'Cond. Jaguarandi',
     price: 'R$ 1.000.000',
@@ -508,10 +508,10 @@ const imoveisData = [
     description: '300 mts terreno, 220 mts Construção, 3 suítes, 1 lavabo, Sala / copa  pé direito alto, Cozinha gourmet com churrasqueira, Deposito, Piscina, Iluminação em leds, Esquadrias em alumínio em toda casa, Paisagismo, Energia solar pre instalado faltando so placas solar, Infra pra ar condicionado, Fino acabamento, Ótima localização no bairro'
   },
   {
-    id: 28,
+    id: 28, /* TIRA  */
     photos: ['/assets/houses/house28/img28_1.jpeg', '/assets/houses/house28/img28_2.jpeg', '/assets/houses/house28/img28_3.jpeg', '/assets/houses/house28/img28_4.jpeg', '/assets/houses/house28/img28_5.jpeg', '/assets/houses/house28/img28_6.jpeg'], 
     city: 'Americana', 
-    district: 'Praia dos Namorados',
+    district: 'Jd. Europa',
     price: 'R$ 300.000,00', 
     category: 'casa', 
     rooms: 2, 
