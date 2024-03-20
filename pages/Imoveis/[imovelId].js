@@ -329,7 +329,7 @@ const imoveisData = [
   },
   {
     id: 18,
-    photos: ['/assets/houses/house18/img18_1.jpeg', '/assets/houses/house18/img18_2.jpeg', '/assets/houses/house18/img18_3.jpeg', '/assets/houses/house18/img18_4.jpeg', '/assets/houses/house18/img18_5.jpeg', '/assets/houses/house18/img18_6.jpeg', '/assets/houses/house18/img18_7.jpeg'], 
+    photos: ['/assets/houses/house18/img18_1.jpeg', '/assets/houses/house18/img18_2.jpeg', '/assets/houses/house18/img18_3.jpeg', '/assets/houses/house18/img18_4.jpeg', '/assets/houses/house18/img18_5.jpeg', '/assets/houses/house18/img18_6.jpeg', '/assets/houses/house18/img18_7.jpeg', '/assets/houses/house18/img18_8.jpeg', '/assets/houses/house18/img18_9.jpeg', '/assets/houses/house18/img18_10.jpeg', '/assets/houses/house18/img18_11.jpeg', '/assets/houses/house18/img18_12.jpeg', '/assets/houses/house18/img18_13.jpeg', '/assets/houses/house18/img18_14.jpeg'], 
     city: 'Piracicaba', 
     district: 'Santa Isabel',
     price: 'R$ 450.000,00',
@@ -347,7 +347,7 @@ const imoveisData = [
   },
   {
     id: 19,
-    photos: ['/assets/houses/house19/img19_1.jpeg', '/assets/houses/house19/img19_2.jpeg', '/assets/houses/house19/img19_3.jpeg', '/assets/houses/house19/img19_4.jpeg', '/assets/houses/house19/img19_5.jpeg', '/assets/houses/house19/img19_6.jpeg'], 
+    photos: ['/assets/houses/house19/img19_1.jpeg', '/assets/houses/house19/img19_2.jpeg', '/assets/houses/house19/img19_3.jpeg', '/assets/houses/house19/img19_4.jpeg', '/assets/houses/house19/img19_5.jpeg', '/assets/houses/house19/img19_6.jpeg', '/assets/houses/house19/img19_7.jpeg', '/assets/houses/house19/img19_8.jpeg', '/assets/houses/house19/img19_9.jpeg', '/assets/houses/house19/img19_10.jpeg'], 
     city: 'Limeira', 
     district: 'Portal dos Eucaliptos',
     price: 'R$ 350.000,00',
@@ -419,7 +419,7 @@ const imoveisData = [
   },
   {
     id: 23,
-    photos: ['/assets/houses/house23/img23_1.jpeg', '/assets/houses/house23/img23_2.jpeg', '/assets/houses/house23/img23_3.jpeg', '/assets/houses/house23/img23_4.jpeg'], 
+    photos: ['/assets/houses/house23/img23_1.jpeg', '/assets/houses/house23/img23_2.jpeg', '/assets/houses/house23/img23_3.jpeg', '/assets/houses/house23/img23_4.jpeg', '/assets/houses/house23/img23_5.jpeg', '/assets/houses/house23/img23_6.jpeg', '/assets/houses/house23/img23_7.jpeg', '/assets/houses/house23/img23_8.jpeg', '/assets/houses/house23/img23_9.jpeg'], 
     city: 'Nova Odessa', 
     district: 'Jd. do Lago',
     price: 'R$ 320.000,00', 
@@ -437,7 +437,7 @@ const imoveisData = [
   },
   {
     id: 24,
-    photos: ['/assets/houses/house24/img24_1.jpeg', '/assets/houses/house24/img24_2.jpeg', '/assets/houses/house24/img24_3.jpeg', '/assets/houses/house24/img24_4.jpeg', '/assets/houses/house24/img24_5.jpeg', '/assets/houses/house24/img24_6.jpeg', '/assets/houses/house24/img24_7.jpeg', '/assets/houses/house24/img24_8.jpeg'], 
+    photos: ['/assets/houses/house24/img24_1.jpeg', '/assets/houses/house24/img24_2.jpeg', '/assets/houses/house24/img24_3.jpeg', '/assets/houses/house24/img24_4.jpeg', '/assets/houses/house24/img24_5.jpeg', '/assets/houses/house24/img24_6.jpeg', '/assets/houses/house24/img24_7.jpeg', '/assets/houses/house24/img24_8.jpeg', '/assets/houses/house24/img24_9.jpeg', '/assets/houses/house24/img24_10.jpeg', '/assets/houses/house24/img24_11.jpeg', '/assets/houses/house24/img24_12.jpeg', '/assets/houses/house24/img24_13.jpeg', '/assets/houses/house24/img24_14.jpeg', '/assets/houses/house24/img24_15.jpeg'], 
     city: 'Santa Barbara d Oeste', 
     district: 'Mollon',
     price: 'R$ 600.000,00', 
