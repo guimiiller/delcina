@@ -58,7 +58,7 @@ const Imoveis = () => {
         {id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'},
         {id: 13, photo: House13_1, city: 'Santa Barbara d Oeste', district: 'Cruzeiro do Sul', price: 'R$ 530.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '730 m²'},
         {id: 14, photo: House14_1, city: 'Santa Barbara d Oeste', district: 'Boa Vista', price: 'R$ 899.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '500 m²'},
-        {id: 15, photo: House15_1, city: 'Limeira', district: 'Balsa', price: 'R$ 899.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1.000 m²'},
+        {id: 15, photo: House15_1, city: 'Limeira', district: 'Balsa', price: 'R$ 350.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1.000 m²'},
         {id: 16, photo: House16_1, city: 'Limeira', district: 'Pinhal', price: 'R$ 1.000.000', category: 'casa', rooms: 2, bathrooms: 1, meters: '23.000  m²'},
         {id: 17, photo: House17_1, city: 'Limeira', district: 'Cond. Jaguarandi', price: 'R$ 1.000.000', category: 'chácara', rooms: 4, bathrooms: 3, meters: '1.600 m²'},
         {id: 18, photo: House18_1, city: 'Piracicaba', district: 'Santa Isabel', price: 'R$ 450.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '1.356 m²'},

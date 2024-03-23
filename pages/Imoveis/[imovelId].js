@@ -278,7 +278,7 @@ const imoveisData = [
     photos: ['/assets/houses/house15/img15_1.jpeg', '/assets/houses/house15/img15_2.jpeg', '/assets/houses/house15/img15_3.jpeg', '/assets/houses/house15/img15_4.jpeg', '/assets/houses/house15/img15_5.jpeg', '/assets/houses/house15/img15_6.jpeg'], 
     city: 'Limeira', 
     district: 'Balsa',
-    price: 'R$ 899.000,00',
+    price: 'R$ 350.000,00',
     category: 'chácara', 
     rooms: 2, 
     bathrooms: 1, 
@@ -383,7 +383,7 @@ const imoveisData = [
   },
   {
     id: 21,
-    photos: ['/assets/houses/house21/img21_1.jpeg', '/assets/houses/house21/img21_2.jpeg', '/assets/houses/house21/img21_3.jpeg', '/assets/houses/house21/img21_4.jpeg'], 
+    photos: ['/assets/houses/house21/img21_1.jpeg', '/assets/houses/house21/img21_2.jpeg', '/assets/houses/house21/img21_3.jpeg', '/assets/houses/house21/img21_4.jpeg', '/assets/houses/house21/img21_5.jpeg', '/assets/houses/house21/img21_6.jpeg', '/assets/houses/house21/img21_7.jpeg', '/assets/houses/house21/img21_8.jpeg', '/assets/houses/house21/img21_9.jpeg', '/assets/houses/house21/img21_10.jpeg', '/assets/houses/house21/img21_11.jpeg'], 
     city: 'Americana', 
     district: 'Carioba',
     price: 'R$ 510.000,00', /*FALTA PREÇO */
@@ -401,7 +401,7 @@ const imoveisData = [
   },
   {
     id: 22,
-    photos: ['/assets/houses/house22/img22_1.jpeg', '/assets/houses/house22/img22_2.jpeg', '/assets/houses/house22/img22_3.jpeg', '/assets/houses/house22/img22_4.jpeg'], 
+    photos: ['/assets/houses/house22/img22_1.jpeg', '/assets/houses/house22/img22_2.jpeg', '/assets/houses/house22/img22_3.jpeg', '/assets/houses/house22/img22_4.jpeg', '/assets/houses/house22/img22_5.jpeg', '/assets/houses/house22/img22_6.jpeg', '/assets/houses/house22/img22_7.jpeg', '/assets/houses/house22/img22_8.jpeg', '/assets/houses/house22/img22_9.jpeg', '/assets/houses/house22/img22_10.jpeg', '/assets/houses/house22/img22_11.jpeg', '/assets/houses/house22/img22_12.jpeg', '/assets/houses/house22/img22_13.jpeg', '/assets/houses/house22/img22_14.jpeg'], 
     city: 'Americana', 
     district: 'Nossa Senhora do Carmo',
     price: 'R$ 380.000,00', 
