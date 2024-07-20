@@ -213,6 +213,7 @@
         flex-direction: column;
         text-align: center;
         width: 100%;
+        padding: 50px;
     }
 
     .about_content{
@@ -335,6 +336,10 @@
 }
 
 @media(max-width: 459px){
+    .interior_container{
+        padding: 50px 0;
+    }
+    
     .interior_content{
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
@@ -545,7 +550,7 @@
 
 .contact_content{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 125px 0;
     width: 100%;
