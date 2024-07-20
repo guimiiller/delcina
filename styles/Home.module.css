@@ -116,8 +116,7 @@
 }
 
 .about_text{
-    flex: 1;
-    margin-left: 80px;
+    margin-right: 300px;
 }
 
 .about_text h2{
@@ -132,6 +131,7 @@
 
 .about_text p{
     font-size: 15px;
+    max-width: 500px;
 }
 
 .about_line_content{
@@ -153,8 +153,6 @@
 }
 
 .about_image{
-    flex: 2;
-    padding-left: 90px;
     display: flex;
     align-items: center;
     justify-content: center;

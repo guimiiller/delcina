@@ -202,22 +202,22 @@ const imoveisData = [
     description: 'Área do terreno 3.424 m2, Área construída aproximadamente, Casa 115 m2 e casa do fundo deve ser uns 60 m2, Varanda na casa inteira aproximadamente 200 mts2, Vendo ou troco excelente chácara em Limeira SP Bairro Pires de cima, Casa ampla toda avarandada, Excelente acabamento, Sendo 5 dormitórios com uma suíte, Sala Jantar conjugada com sala de TV conceito aberto, Cozinha ampla, Sala, Cozinha, Banheiros, Área Gourmet, Piscina, Várias árvores frutíferas, Excelente localização, Duas casas'
   },
   {
-    id: 11, /* tira */
-    photos: ['/assets/houses/house11/img11_1.jpeg', '/assets/houses/house11/img11_2.jpeg', '/assets/houses/house11/img11_3.jpeg', '/assets/houses/house11/img11_4.jpeg'], 
+    id: 11,
+    photos: ['/assets/houses/house11/img11_1.jpeg', '/assets/houses/house11/img11_2.jpeg', '/assets/houses/house11/img11_3.jpeg', '/assets/houses/house11/img11_4.jpeg', '/assets/houses/house11/img11_5.jpeg', '/assets/houses/house11/img11_6.jpeg', '/assets/houses/house11/img11_7.jpeg', '/assets/houses/house11/img11_8.jpeg', '/assets/houses/house11/img11_9.jpeg', '/assets/houses/house11/img11_10.jpeg', '/assets/houses/house11/img11_11.jpeg', '/assets/houses/house11/img11_12.jpeg', '/assets/houses/house11/img11_13.jpeg', '/assets/houses/house11/img11_14.jpeg', '/assets/houses/house11/img11_15.jpeg'], 
     city: 'Limeira', 
-    district: 'Limeira Balsa', 
-    price: 'R$ 690.000,00', /*PREÇO */
+    district: 'Ponte do Funil', 
+    price: 'R$ 550.000,00', /*PREÇO */
     category: 'chácara', 
-    rooms: 2, 
-    bathrooms: 2, 
+    rooms: 3, 
+    bathrooms: 3, 
     pool: true, 
-    meters: '500 m²', 
+    meters: '1280 m²', 
     garage: 1,
     hall: 1, 
-    exchange: false, 
+    exchange: true, 
     financing: false,
     code: 'CHA06C',
-    description: ' 2 dormitórios, Salão integrado na cozinha com churrasqueira, 2 banheiros, Piscina, Quarto para ferramenta e 500 m2.'
+    description: 'Aceito permuta com casa em Limeira, Casa ampla toda avarandada, 3 dormitórios amplos sendo uma suite, Cozinha ampla, Área gourmet, 1280 mtrs, Condomínio, Outra casa são 4 cômodos'
   },
   {
     id: 12,

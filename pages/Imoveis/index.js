@@ -54,7 +54,7 @@ const Imoveis = () => {
         {id: 8, photo: House8_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 1.300.000,00', category: 'chácara', rooms: 2, bathrooms: 1, meters: '3.600 m²'},
         {id: 9, photo: House9_1, city: 'Limeira', district: 'Cond. Santa Mônica', price: 'R$ 450.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '1070 m²'},
         {id: 10, photo: House10_1, city: 'Limeira', district: 'Pires de cima', price: 'R$ 690.000,00', category: 'chácara', rooms: 3, bathrooms: 1, meters: '3.000 m²'},
-        {id: 11, photo: House11_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 690.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '500 m²'},
+        {id: 11, photo: House11_1, city: 'Limeira', district: 'Ponte do Funil', price: 'R$ 550.000,00', category: 'chácara', rooms: 3, bathrooms: 3, meters: '1280 m²'},
         {id: 12, photo: House12_1, city: 'Limeira', district: 'Limeira Balsa', price: 'R$ 900.000,00', category: 'casa', rooms: 2, bathrooms: 3, meters: '1.100 m²'},
         {id: 13, photo: House13_1, city: 'Santa Barbara d Oeste', district: 'Cruzeiro do Sul', price: 'R$ 530.000,00', category: 'chácara', rooms: 2, bathrooms: 2, meters: '730 m²'},
         {id: 14, photo: House14_1, city: 'Santa Barbara d Oeste', district: 'Boa Vista', price: 'R$ 899.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '500 m²'},

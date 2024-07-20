@@ -5,7 +5,7 @@
     width: 100%;
     z-index: 100;
     transition: .4s;
-    padding: 24px;
+    padding: 30px 24px 0 24px;
     text-transform: uppercase;
     letter-spacing: 1px;
     background: transparent;
