@@ -72,7 +72,7 @@ export const Slide = () =>{
                     ))}
                 </Swiper>
             </div>
-            <Link href={'/Imoveis'}><button>Veja Mais</button></Link>
+            <Link href={'/Imoveis'}><button>Todos imóveis</button></Link>
         </div>
     )
 }
