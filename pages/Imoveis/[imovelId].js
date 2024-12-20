@@ -525,24 +525,6 @@ const imoveisData = [
     code: 'CA16',
     description: '2 dormitórios sendo uma suite, Sala, Cozinha, Lavanderia, Banheiro social'
   },
-  {
-    id: 29,
-    photos: ['/assets/houses/house29/img29_1.jpeg', '/assets/houses/house29/img29_2.jpeg', '/assets/houses/house29/img29_3.jpeg', '/assets/houses/house29/img29_4.jpeg', '/assets/houses/house29/img29_5.jpeg', '/assets/houses/house29/img29_6.jpeg', '/assets/houses/house29/img29_7.jpeg'], 
-    city: 'Americana', 
-    district: 'Praia dos Namorados',
-    price: 'R$ 1.999.000,00', 
-    category: 'chacara', 
-    rooms: 3, 
-    bathrooms: 2, 
-    pool: true, 
-    meters: '5000 m²',
-    garage: 1,
-    hall: 1, 
-    exchange: true, 
-    financing: false,
-    code: 'CHA13',
-    description: '5000 mil mtrs, Fundo com represa, Casa ampla avarandada, 3 dormitórios sendo 2 suíte, 3 salas, Cozinha ampla, Churrasqueira, Piscina ampla, Excelente visão panorâmica'
-  },
 ];
 
 export async function getStaticPaths() {

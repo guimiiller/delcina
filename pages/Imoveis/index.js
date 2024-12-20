@@ -72,7 +72,6 @@ const Imoveis = () => {
         {id: 26, photo: House26_1, city: 'Americana', district: 'São Vito', price: 'R$ 450.000,00', category: 'casa', rooms: 4, bathrooms: 2, meters: '230 m²'},
         {id: 27, photo: House27_1, city: 'Americana', district: 'Terramérica', price: 'R$ 1.380.000,00', category: 'casa', rooms: 3, bathrooms: 4, meters: '300 m²'},
         {id: 28, photo: House28_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 300.000,00', category: 'casa', rooms: 2, bathrooms: 2, meters: '300 m²'},
-        {id: 29, photo: House29_1, city: 'Americana', district: 'Praia dos Namorados', price: 'R$ 1.999.000,00', category: 'casa', rooms: 3, bathrooms: 2, meters: '5000 m²'},
     ];
 
     
